@@ -272,20 +272,20 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>3</td>
-        <td>18</td>
-        <td>183</td>
-        <td>15</td>
-        <td>265</td>
+        <td>13</td>
+        <td>10</td>
+        <td>120</td>
+        <td>7</td>
+        <td>101</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
-        <td>1%</td>
+        <td>5%</td>
         <td>4%</td>
-        <td>38%</td>
+        <td>48%</td>
         <td>3%</td>
-        <td>55%</td>
+        <td>40%</td>
     </tr>
 </table>
         
@@ -313,13 +313,1236 @@ immediately.
 <p>FontBakery version: 0.12.10</p>
         
             
+                <h2>OpenType Specification Checks</h2>
+<span class='section__emoji'>
+    🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+</span>
+
+    <h3>
+    
+    Fonts have consistent underline thickness?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/underline_thickness&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Fonts have consistent PANOSE family type?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Make sure all font files have the same version value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/equal_font_versions&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check that OS/2.fsSelection bold &amp; italic settings are unique for each NameID1
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/bold_italic_unique_for_nameid1&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Verify that each group of fonts with the same nameID 1 has maximum of 4 fonts.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/max_4_fonts_per_family_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1)
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/consistent_family_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    CFF table FontName must match name table ID 6 (PostScript name).
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/postscript_vs_cff&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Name table ID 6 (PostScript name) must be consistent across platforms.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/postscript_name_consistency&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check name table for empty records.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/empty_records&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Description strings in the name table must not contain copyright info.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/no_copyright_on_description&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
+
+                            <span class='details_text'>
+                            <p>Some namerecords with ID=10 (NameID.DESCRIPTION) containing copyright info should be removed (perhaps these were added by a longstanding FontLab Studio 5.x bug that copied copyright notices to them.)</p>
+
+                            
+                             [code: copyright-on-description]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
+    
+
+
+    <h3>
+    
+    Does full font name begin with the font family name?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;wght&#39; (Weight) axis coordinate must be 400 on the &#39;Regular&#39; instance.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_wght_coord&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;wdth&#39; (Width) axis coordinate must be 100 on the &#39;Regular&#39; instance.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_wdth_coord&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;slnt&#39; (Slant) axis coordinate must be zero on the &#39;Regular&#39; instance.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_slnt_coord&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;ital&#39; (Italic) axis coordinate must be zero on the &#39;Regular&#39; instance.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_ital_coord&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;opsz&#39; (Optical Size) axis coordinate should be between 10 and 16 on the &#39;Regular&#39; instance.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_opsz_coord&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;slnt&#39; (Slant) axis coordinate specifies positive values in its range?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/slnt_range&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;ital&#39; (Italic) axis coordinates is in a valid range?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.typenetwork/check/varfont/ital_range&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;wght&#39; (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/wght_valid_range&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    The variable font &#39;wdth&#39; (Width) axis coordinate must strictly greater than zero.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/wdth_valid_range&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    All fvar axes have a correspondent Axis Record on STAT table?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/stat_axis_record_for_each_axis&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the number of glyphs in the loca table match the maxp table?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/loca/maxp_num_glyphs&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jun/20</div>
+    
+    Does the font&#39;s CFF table top dict strings fit into the ASCII range?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_ascii_strings&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Is the CFF subr/gsubr call depth &gt; 10?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_call_depth&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the font use deprecated CFF operators or operations?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_deprecated_operators&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Is the CFF2 subr/gsubr call depth &gt; 10?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff2_call_depth&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking font version fields (head and name table).
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_version&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Font has correct post table version?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/post_table_version&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking correctness of monospaced metadata.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/monospace&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check if OS/2 xAvgCharWidth is correct.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/xavgcharwidth&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check if OS/2 fsSelection matches head macStyle bold and italic bits.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/fsselection_matches_macstyle&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking unitsPerEm value is reasonable.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unitsperem&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the font have a DSIG table?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dsig&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check glyphs in mark glyph class are non-spacing.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check mark characters are in GDEF mark glyph class.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check GDEF mark glyph class doesn&#39;t have characters that are not marks.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Is there a usable &#34;kern&#34; table declared in the font?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kern_table&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Is there any unused data at the end of the glyf table?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_unused_data&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Font follows the family naming recommendations?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family_naming_recommendations&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    MaxAdvanceWidth is consistent with values in the Hmtx and Hhea tables?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/maxadvancewidth&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    PostScript name follows OpenType specification requirements?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/postscript_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check for points out of bounds.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/points_out_of_bounds&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check glyphs do not have duplicate components which have the same x,y coordinates.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_non_transformed_duplicate_components&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check code page character ranges
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/code_pages&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid feature tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_feature_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid script tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_script_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid language tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_language_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking post.italicAngle value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_angle&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking head.macStyle value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mac_style&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking OS/2 fsSelection value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fsselection&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check name table IDs 1, 2, 16, 17 to conform to Italic style.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/italic_names&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that the value of axisNameID used by each VariationAxisRecord is greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_axis_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that the value of subfamilyNameID used by each InstanceRecord is 2, 17, or greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_subfamily_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that the value of postScriptNameID used by each InstanceRecord is 6, 0xFFFF, or greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_postscript_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to a name ID whose string is equal to the string of either name ID 2 or 17, and its postScriptNameID value is set to a name ID whose string is equal to the string of name ID 6.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_default_instance_nameids&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that all of the instance records in a given font have the same size.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/same_size_instance_records&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validates that all of the instance records in a given font have distinct data.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/distinct_instance_records&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Validate foundry-defined design-variation axis tag names.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/foundry_defined_tag_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check that family axis ranges are indentical
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/family_axis_ranges&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    STAT table has Axis Value tables?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/stat_has_axis_value_tables&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Checking OS/2 achVendID against configuration.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.thetypefounders/check/vendor_id&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check hhea.caretSlopeRise and hhea.caretSlopeRun
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/caret_slope&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure VFs have &#39;ital&#39; STAT axis.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_in_stat&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure &#39;ital&#39; STAT axis is boolean value
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_in_stat_is_boolean&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure &#39;ital&#39; STAT axis is last.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_last&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+            
         
             
         
             
                 <h2>Universal Profile Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️
+    🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️
 </span>
 
     <h3>
@@ -334,12 +1557,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -356,12 +1575,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -378,12 +1593,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -400,12 +1611,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -422,12 +1629,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -444,13 +1647,427 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                ⚠️
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
 
+                            <span class='details_text'>
+                            <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: C	Contours detected: 2	Expected: 1
+
+- Glyph name: E	Contours detected: 2	Expected: 1
+
+- Glyph name: F	Contours detected: 2	Expected: 1
+
+- Glyph name: G	Contours detected: 2	Expected: 1
+
+- Glyph name: H	Contours detected: 2	Expected: 1
+
+- Glyph name: I	Contours detected: 2	Expected: 1
+
+- Glyph name: J	Contours detected: 2	Expected: 1
+
+- Glyph name: L	Contours detected: 2	Expected: 1
+
+- Glyph name: M	Contours detected: 2	Expected: 1
+
+- Glyph name: N	Contours detected: 2	Expected: 1
+
+- Glyph name: S	Contours detected: 2	Expected: 1
+
+- Glyph name: T	Contours detected: 2	Expected: 1
+
+- Glyph name: U	Contours detected: 2	Expected: 1
+
+- Glyph name: V	Contours detected: 2	Expected: 1
+
+- Glyph name: X	Contours detected: 2	Expected: 1
+
+- Glyph name: Y	Contours detected: 2	Expected: 1
+
+- Glyph name: Z	Contours detected: 2	Expected: 1
+
+- Glyph name: grave	Contours detected: 2	Expected: 1
+
+- Glyph name: c	Contours detected: 2	Expected: 1
+
+- Glyph name: f	Contours detected: 2	Expected: 1
+
+- Glyph name: h	Contours detected: 2	Expected: 1
+
+- Glyph name: l	Contours detected: 2	Expected: 1
+
+- Glyph name: m	Contours detected: 2	Expected: 1
+
+- Glyph name: n	Contours detected: 2	Expected: 1
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: s	Contours detected: 2	Expected: 1
+
+- Glyph name: t	Contours detected: 2	Expected: 1
+
+- Glyph name: u	Contours detected: 2	Expected: 1
+
+- Glyph name: v	Contours detected: 2	Expected: 1
+
+- Glyph name: w	Contours detected: 2	Expected: 1
+
+- Glyph name: x	Contours detected: 2	Expected: 1
+
+- Glyph name: y	Contours detected: 2	Expected: 1
+
+- Glyph name: z	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: macron	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00B2	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00B3	Contours detected: 2	Expected: 1
+
+- Glyph name: acute	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00B5	Contours detected: 2	Expected: 1
+
+- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00B9	Contours detected: 2	Expected: 1
+
+- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: onehalf	Contours detected: 2	Expected: 3
+
+- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: Agrave	Contours detected: 2	Expected: 3
+
+- Glyph name: Aacute	Contours detected: 2	Expected: 3
+
+- Glyph name: Acircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: Atilde	Contours detected: 2	Expected: 3
+
+- Glyph name: Adieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: Aring	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: Edieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: Ograve	Contours detected: 2	Expected: 3
+
+- Glyph name: Oacute	Contours detected: 2	Expected: 3
+
+- Glyph name: Ocircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: Otilde	Contours detected: 2	Expected: 3
+
+- Glyph name: Odieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: Udieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: germandbls	Contours detected: 2	Expected: 1
+
+- Glyph name: agrave	Contours detected: 2	Expected: 3
+
+- Glyph name: aacute	Contours detected: 2	Expected: 3
+
+- Glyph name: acircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: atilde	Contours detected: 2	Expected: 3
+
+- Glyph name: adieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: aring	Contours detected: 2	Expected: 4
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: egrave	Contours detected: 2	Expected: 3
+
+- Glyph name: eacute	Contours detected: 2	Expected: 3
+
+- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: edieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: idieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: ograve	Contours detected: 2	Expected: 3
+
+- Glyph name: oacute	Contours detected: 2	Expected: 3
+
+- Glyph name: ocircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: otilde	Contours detected: 2	Expected: 3
+
+- Glyph name: odieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: oslash	Contours detected: 2	Expected: 3
+
+- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: ydieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: oe	Contours detected: 2	Expected: 3
+
+- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: florin	Contours detected: 2	Expected: 1
+
+- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+- Glyph name: caron	Contours detected: 2	Expected: 1
+
+- Glyph name: breve	Contours detected: 2	Expected: 1
+
+- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+- Glyph name: pi	Contours detected: 2	Expected: 1
+
+- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+- Glyph name: perthousand	Contours detected: 2	Expected: 6 or 7
+
+- Glyph name: fraction	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2126	Contours detected: 2	Expected: 1
+
+- Glyph name: product	Contours detected: 2	Expected: 1
+
+- Glyph name: summation	Contours detected: 2	Expected: 1
+
+- Glyph name: integral	Contours detected: 2	Expected: 1
+
+- Glyph name: Aacute	Contours detected: 2	Expected: 3
+
+- Glyph name: Acircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: Adieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: Agrave	Contours detected: 2	Expected: 3
+
+- Glyph name: Aring	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: Atilde	Contours detected: 2	Expected: 3
+
+- Glyph name: C	Contours detected: 2	Expected: 1
+
+- Glyph name: E	Contours detected: 2	Expected: 1
+
+- Glyph name: Edieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: F	Contours detected: 2	Expected: 1
+
+- Glyph name: G	Contours detected: 2	Expected: 1
+
+- Glyph name: H	Contours detected: 2	Expected: 1
+
+- Glyph name: I	Contours detected: 2	Expected: 1
+
+- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: J	Contours detected: 2	Expected: 1
+
+- Glyph name: L	Contours detected: 2	Expected: 1
+
+- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: M	Contours detected: 2	Expected: 1
+
+- Glyph name: N	Contours detected: 2	Expected: 1
+
+- Glyph name: Oacute	Contours detected: 2	Expected: 3
+
+- Glyph name: Ocircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: Odieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: Ograve	Contours detected: 2	Expected: 3
+
+- Glyph name: Otilde	Contours detected: 2	Expected: 3
+
+- Glyph name: S	Contours detected: 2	Expected: 1
+
+- Glyph name: T	Contours detected: 2	Expected: 1
+
+- Glyph name: U	Contours detected: 2	Expected: 1
+
+- Glyph name: Udieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: V	Contours detected: 2	Expected: 1
+
+- Glyph name: X	Contours detected: 2	Expected: 1
+
+- Glyph name: Y	Contours detected: 2	Expected: 1
+
+- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: Z	Contours detected: 2	Expected: 1
+
+- Glyph name: aacute	Contours detected: 2	Expected: 3
+
+- Glyph name: acircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: acute	Contours detected: 2	Expected: 1
+
+- Glyph name: adieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: agrave	Contours detected: 2	Expected: 3
+
+- Glyph name: aring	Contours detected: 2	Expected: 4
+
+- Glyph name: atilde	Contours detected: 2	Expected: 3
+
+- Glyph name: breve	Contours detected: 2	Expected: 1
+
+- Glyph name: c	Contours detected: 2	Expected: 1
+
+- Glyph name: caron	Contours detected: 2	Expected: 1
+
+- Glyph name: cedilla	Contours detected: 2	Expected: 1
+
+- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+- Glyph name: dotaccent	Contours detected: 2	Expected: 1
+
+- Glyph name: dotlessi	Contours detected: 2	Expected: 1
+
+- Glyph name: eacute	Contours detected: 2	Expected: 3
+
+- Glyph name: ecircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: edieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: egrave	Contours detected: 2	Expected: 3
+
+- Glyph name: f	Contours detected: 2	Expected: 1
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+
+- Glyph name: fraction	Contours detected: 2	Expected: 1
+
+- Glyph name: germandbls	Contours detected: 2	Expected: 1
+
+- Glyph name: grave	Contours detected: 2	Expected: 1
+
+- Glyph name: h	Contours detected: 2	Expected: 1
+
+- Glyph name: idieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: integral	Contours detected: 2	Expected: 1
+
+- Glyph name: l	Contours detected: 2	Expected: 1
+
+- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: m	Contours detected: 2	Expected: 1
+
+- Glyph name: macron	Contours detected: 2	Expected: 1
+
+- Glyph name: n	Contours detected: 2	Expected: 1
+
+- Glyph name: oacute	Contours detected: 2	Expected: 3
+
+- Glyph name: ocircumflex	Contours detected: 2	Expected: 3
+
+- Glyph name: odieresis	Contours detected: 2	Expected: 4
+
+- Glyph name: oe	Contours detected: 2	Expected: 3
+
+- Glyph name: ogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: ograve	Contours detected: 2	Expected: 3
+
+- Glyph name: onehalf	Contours detected: 2	Expected: 3
+
+- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: oslash	Contours detected: 2	Expected: 3
+
+- Glyph name: otilde	Contours detected: 2	Expected: 3
+
+- Glyph name: perthousand	Contours detected: 2	Expected: 6 or 7
+
+- Glyph name: pi	Contours detected: 2	Expected: 1
+
+- Glyph name: product	Contours detected: 2	Expected: 1
+
+- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: s	Contours detected: 2	Expected: 1
+
+- Glyph name: summation	Contours detected: 2	Expected: 1
+
+- Glyph name: t	Contours detected: 2	Expected: 1
+
+- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
+
+- Glyph name: tilde	Contours detected: 2	Expected: 1
+
+- Glyph name: u	Contours detected: 2	Expected: 1
+
+- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni00B5	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2126	Contours detected: 2	Expected: 1
+
+- Glyph name: v	Contours detected: 2	Expected: 1
+
+- Glyph name: w	Contours detected: 2	Expected: 1
+
+- Glyph name: x	Contours detected: 2	Expected: 1
+
+- Glyph name: y	Contours detected: 2	Expected: 1
+
+- Glyph name: ydieresis	Contours detected: 2	Expected: 3
+
+- Glyph name: z	Contours detected: 2	Expected: 1
+</code></pre>
+
+                            
+                             [code: contour-count]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -502,13 +2119,36 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>OS/2.usWinDescent value should be equal or greater than 244, but got 222 instead</p>
+
+                            
+                             [code: descent]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -524,12 +2164,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -546,12 +2182,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -568,12 +2200,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -592,12 +2220,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -614,12 +2238,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -636,12 +2256,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -658,13 +2274,39 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>OS/2 sTypoLineGap is not equal to 0.</p>
+<p><em>Overridden</em>: This check was originally a WARN but was
+overridden by the universal profile:
+For Google Fonts, all messages from this check are considered FAILs.</p>
+
+                            
+                             [code: OS/2]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -680,12 +2322,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -702,13 +2340,39 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                ⚠️
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
 
+                            <span class='details_text'>
+                            <p>The most common width is 534 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 450:
+plus</p>
+
+                            
+                             [code: width-outliers]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -724,13 +2388,36 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: ' Aleme Tadesse '</p>
+
+                            
+                             [code: trailing-space]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -746,13 +2433,36 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
+
+                            
+                             [code: lineGap]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -768,12 +2478,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -790,12 +2496,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -812,12 +2514,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -834,12 +2532,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -856,13 +2550,36 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                ⚠️
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
 
+                            <span class='details_text'>
+                            <p>This font has a 'Soft Hyphen' character.</p>
+
+                            
+                             [code: softhyphen]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -878,12 +2595,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -900,12 +2613,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -924,12 +2633,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -946,12 +2651,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -968,12 +2669,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -992,12 +2689,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1014,12 +2707,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1036,8 +2725,6 @@ immediately.
 
     
 
-    
-
 </div>
 
 
@@ -1045,7 +2732,7 @@ immediately.
         <details>
             <summary>
                 ⚠️
-                RadioCanadaDisplay[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -1058,68 +2745,9 @@ immediately.
 
                             <span class='details_text'>
                             <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- CR
+<pre><code>- Euro.001
 
-- IJacute
-
-- NULL
-
-- caron.alt
-
-- florin
-
-- gem
-
-- i.trk
-
-- ijacute
-
-- macronmodcomb
-</code></pre>
-
-                            
-                             [code: unreachable-glyphs]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- IJacute
-
-- NULL
-
-- caron.alt
-
-- firsttonechinesecomb
-
-- gem
-
-- i.trk
-
-- ijacute
-
-- uni0326.alt
+- _401
 </code></pre>
 
                             
@@ -1146,12 +2774,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1168,12 +2792,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1190,12 +2810,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1212,12 +2828,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1234,12 +2846,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1256,13 +2864,36 @@ immediately.
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Space and non-breaking space have differing width: The space glyph named space is 420 font units wide, non-breaking space named (uni00A0) is 325 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+
+                            
+                             [code: different-widths]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -1271,7 +2902,7 @@ immediately.
             
                 <h2>Article Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️
+    ⚠️
 </span>
 
     <h3>
@@ -1286,8 +2917,6 @@ immediately.
 
     
 
-    
-
 </div>
 
 
@@ -1295,7 +2924,7 @@ immediately.
         <details>
             <summary>
                 ⚠️
-                RadioCanadaDisplay[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -1307,36 +2936,7 @@ immediately.
                             </span>
 
                             <span class='details_text'>
-                            <p>Family metadata at fonts/variable does not have an article.</p>
-
-                            
-                             [code: lacks-article]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Family metadata at fonts/variable does not have an article.</p>
+                            <p>Family metadata at fonts/ttf does not have an article.</p>
 
                             
                              [code: lacks-article]
@@ -1355,7 +2955,7 @@ immediately.
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     <h3>
@@ -1370,12 +2970,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1392,12 +2988,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1414,12 +3006,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1436,12 +3024,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1458,12 +3042,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1480,12 +3060,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1502,12 +3078,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1524,12 +3096,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1546,12 +3114,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1570,12 +3134,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1592,12 +3152,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1614,12 +3170,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1636,12 +3188,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1658,12 +3206,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1680,12 +3224,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1702,12 +3242,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1724,12 +3260,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1746,12 +3278,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1768,12 +3296,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1790,12 +3314,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1812,12 +3332,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1834,12 +3350,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1856,12 +3368,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1878,12 +3386,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1900,12 +3404,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1922,12 +3422,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1944,12 +3440,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1966,12 +3458,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -1988,12 +3476,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2010,12 +3494,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2032,12 +3512,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2054,12 +3530,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2076,12 +3548,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2098,12 +3566,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2120,12 +3584,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2142,12 +3602,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2164,12 +3620,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2186,12 +3638,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2208,12 +3656,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2230,12 +3674,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2252,12 +3692,8 @@ immediately.
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2274,8 +3710,6 @@ immediately.
 
     
 
-    
-
 </div>
 
 
@@ -2283,7 +3717,7 @@ immediately.
         <details>
             <summary>
                 ⚠️
-                RadioCanadaDisplay[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -2301,44 +3735,20 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
+<li>U+0008 : try adding symbols</li>
+<li>U+0009 : try adding symbols</li>
+<li>U+001D : try adding one of: balinese, symbols</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, tai-le, malayalam, duployan, coptic, canadian-aboriginal, math, old-permic, hebrew, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2116 NUMERO SIGN: try adding cyrillic</li>
 <li>U+2126 OHM SIGN: try adding math</li>
-<li>U+212E ESTIMATED SYMBOL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, yi, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2347,97 +3757,11 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+FB00 LATIN SMALL LIGATURE FF: not included in any glyphset definition</li>
-<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
-<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
-<li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
-
-                            
-                             [code: unreachable-subsetting]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, tai-le, malayalam, duployan, coptic, canadian-aboriginal, math, old-permic, hebrew, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2116 NUMERO SIGN: try adding cyrillic</li>
-<li>U+2126 OHM SIGN: try adding math</li>
-<li>U+212E ESTIMATED SYMBOL: try adding math</li>
-<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+220F N-ARY PRODUCT: try adding math</li>
-<li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, yi, tai-tham</li>
-<li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+222B INTEGRAL: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+F8FF : not included in any glyphset definition</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>ethiopic</code>, <code>latin</code>, <code>latin-ext</code></p>
 
                             
                              [code: unreachable-subsetting]
@@ -2463,12 +3787,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2485,12 +3805,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2507,12 +3823,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2529,12 +3841,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2551,6 +3859,81 @@ definitions.</p>
 
     
 
+</div>
+
+
+    
+
+
+            
+        
+            
+        
+            
+        
+            
+                <h2>Family Checks</h2>
+<span class='section__emoji'>
+    🔥⏩
+</span>
+
+    <h3>
+    
+    Does font file include unacceptable control character glyphs?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/control_chars&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                🔥
+                
+                Family Check
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The following unacceptable control characters were identified:
+fonts/ttf/Menbere2020B-Bold.ttf: uni0009</p>
+
+                            
+                             [code: unacceptable]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
+    
+
+
+    <h3>
+    
+    Fonts have equal codepoint coverage
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/equal_codepoint_coverage&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
     
 
 </div>
@@ -2558,21 +3941,67 @@ definitions.</p>
 
     
 
+
+    <h3>
+    
+    Check font has a license.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/has_license&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure Italic styles have Roman counterparts.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/italics_have_roman_counterparts&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    All tabular figures must have the same width across the RIBBI-family.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/tnum_horizontal_metrics&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
     
 
 
             
         
             
-        
-            
-        
-            
-        
-            
                 <h2>Name table checks</h2>
 <span class='section__emoji'>
-    🔥
+    🔥⏩
 </span>
 
     <h3>
@@ -2587,86 +4016,9 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
-    
-
-    
-        <details>
-            <summary>
-                🔥
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Variable font instance name 'Radio Canada Display Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 259 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
-
-                            
-                             [code: instance-too-long]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Variable font instance name 'Radio Canada Display Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 259 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
-
-                            
-                             [code: instance-too-long]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Variable font instance name 'Radio Canada Display SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 261 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
-
-                            
-                             [code: instance-too-long]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Variable font instance name 'Radio Canada Display SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 261 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
-
-                            
-                             [code: instance-too-long]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -2682,12 +4034,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2704,13 +4052,36 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+
+                            
+                             [code: missing]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -2726,12 +4097,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2748,12 +4115,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2770,12 +4133,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2792,12 +4151,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2807,7 +4162,7 @@ definitions.</p>
             
                 <h2>Repository Checks</h2>
 <span class='section__emoji'>
-    🔥🔥⏩⏩⏩⏩⏩
+    🔥⏩⏩⏩
 </span>
 
     <h3>
@@ -2822,12 +4177,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2844,8 +4195,6 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
@@ -2853,39 +4202,7 @@ definitions.</p>
         <details>
             <summary>
                 🔥
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
-
-                            
-                             [code: bad-format]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                🔥
-                RadioCanadaDisplay-Italic[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -2944,12 +4261,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2966,12 +4279,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -2988,12 +4297,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3010,12 +4315,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3025,7 +4326,7 @@ definitions.</p>
             
                 <h2>Shaping Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩
 </span>
 
     <h3>
@@ -3040,12 +4341,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3062,12 +4359,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3084,12 +4377,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3106,8 +4395,6 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
@@ -3115,36 +4402,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>No dotted circle glyph present</p>
-
-                            
-                             [code: missing-dotted-circle]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -3182,73 +4440,9 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Yala (Latn, 200,000 speakers), Basaa (Latn, 332,940 speakers), Kaska (Latn, 125 speakers), Kom (Latn, 360,685 speakers), Cicipu (Latn, 44,000 speakers), Dan (Latn, 1,099,244 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Han (Latn, 6 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mango (Latn, 77,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Ejagham (Latn, 120,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Ebira (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Heiltsuk (Latn, 300 speakers), Fur (Latn, 1,230,163 speakers), Makaa (Latn, 221,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers).</p>
-
-                            
-                             [code: soft-dotted]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Yala (Latn, 200,000 speakers), Basaa (Latn, 332,940 speakers), Kaska (Latn, 125 speakers), Kom (Latn, 360,685 speakers), Cicipu (Latn, 44,000 speakers), Dan (Latn, 1,099,244 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Han (Latn, 6 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mango (Latn, 77,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Ejagham (Latn, 120,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Ebira (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Heiltsuk (Latn, 300 speakers), Fur (Latn, 1,230,163 speakers), Makaa (Latn, 221,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers).</p>
-
-                            
-                             [code: soft-dotted]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -3257,7 +4451,7 @@ definitions.</p>
             
                 <h2>Outline Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⚠️
 </span>
 
     <h3>
@@ -3272,95 +4466,9 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* germandbls (U+00DF): X=280.5,Y=-0.5 (should be at baseline 0?)
-</code></pre>
-
-                            
-                             [code: found-misalignments]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* abreve (U+0103): X=227.0,Y=692.0 (should be at cap-height 690?)
-
-* aring (U+00E5): X=335.5,Y=689.0 (should be at cap-height 690?)
-
-* aringacute (U+01FB): X=335.5,Y=689.0 (should be at cap-height 690?)
-
-* ebreve (U+0115): X=220.0,Y=692.0 (should be at cap-height 690?)
-
-* gbreve (U+011F): X=222.0,Y=692.0 (should be at cap-height 690?)
-
-* ibreve (U+012D): X=52.0,Y=692.0 (should be at cap-height 690?)
-
-* obreve (U+014F): X=221.0,Y=692.0 (should be at cap-height 690?)
-
-* ubreve (U+016D): X=223.0,Y=692.0 (should be at cap-height 690?)
-
-* uring (U+016F): X=331.5,Y=689.0 (should be at cap-height 690?)
-
-* uni0306 (U+0306): X=187.0,Y=692.0 (should be at cap-height 690?)
-
-* uni030A (U+030A): X=294.5,Y=689.0 (should be at cap-height 690?)
-
-* breve (U+02D8): X=187.0,Y=692.0 (should be at cap-height 690?)
-
-* ring (U+02DA): X=294.5,Y=689.0 (should be at cap-height 690?)
-</code></pre>
-
-                            
-                             [code: found-misalignments]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -3376,12 +4484,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3398,12 +4502,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3420,13 +4520,38 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                ⚠️
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
 
+                            <span class='details_text'>
+                            <p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni2DD2 (U+2DD2): B&lt;&lt;106.5,648.0&gt;-&lt;113.0,647.0&gt;-&lt;120.0,645.0&gt;&gt;/B&lt;&lt;120.0,645.0&gt;-&lt;113.0,649.0&gt;-&lt;106.0,653.5&gt;&gt; = 13.799485396019362
+</code></pre>
+
+                            
+                             [code: found-jaggy-segments]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -3442,13 +4567,46 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                ⚠️
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
 
+                            <span class='details_text'>
+                            <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* bar (U+007C): L&lt;&lt;88.0,510.0&gt;--&lt;89.0,0.0&gt;&gt;
+
+* dollar (U+0024): L&lt;&lt;232.0,67.0&gt;--&lt;233.0,255.0&gt;&gt;
+
+* greaterequal (U+2265): L&lt;&lt;487.0,-95.0&gt;--&lt;46.0,-94.0&gt;&gt;
+
+* notequal (U+2260): L&lt;&lt;48.0,196.0&gt;--&lt;217.0,195.0&gt;&gt;
+
+* plusminus (U+00B1): L&lt;&lt;225.0,253.0&gt;--&lt;224.0,415.0&gt;&gt;
+</code></pre>
+
+                            
+                             [code: found-semi-vertical]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -3464,12 +4622,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3479,7 +4633,7 @@ definitions.</p>
             
                 <h2>Font File Checks</h2>
 <span class='section__emoji'>
-    ⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️
+    🔥🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️
 </span>
 
     <h3>
@@ -3494,12 +4648,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3516,12 +4666,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3538,12 +4684,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3560,12 +4702,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3582,12 +4720,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3604,12 +4738,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3626,12 +4756,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3648,12 +4774,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3670,12 +4792,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3692,12 +4810,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3714,13 +4828,39 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
+<p>&quot;Copyright 2020 The Familyname Project Authors (git url)&quot;</p>
+<p>But instead we have got:</p>
+<p>&quot;Copyright (c) 2020 by Aleme Tadesse. All rights reserved.&quot;</p>
+
+                            
+                             [code: bad-notice-format]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -3736,12 +4876,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3758,13 +4894,77 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Font names are incorrect:</p>
+<table>
+<thead>
+<tr>
+<th align="left">nameID</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Family Name</td>
+<td align="left"><strong>Menbere2020B Bold</strong></td>
+<td align="left"><strong>Menbere2020B</strong></td>
+</tr>
+<tr>
+<td align="left">Subfamily Name</td>
+<td align="left">Bold</td>
+<td align="left">Bold</td>
+</tr>
+<tr>
+<td align="left">Full Name</td>
+<td align="left">Menbere2020B Bold</td>
+<td align="left">Menbere2020B Bold</td>
+</tr>
+<tr>
+<td align="left">Postscript Name</td>
+<td align="left">Menbere2020B-Bold</td>
+<td align="left">Menbere2020B-Bold</td>
+</tr>
+<tr>
+<td align="left">Typographic Family Name</td>
+<td align="left"><strong>Menbere2020B</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">Typographic Subfamily Name</td>
+<td align="left"><strong>Bold</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+</tbody>
+</table>
+
+                            
+                             [code: bad-names]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -3780,12 +4980,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3802,12 +4998,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3824,12 +5016,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3846,12 +5034,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3868,12 +5052,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3890,12 +5070,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3912,13 +5088,359 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>Missing required codepoints:</p>
+<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
+
+
+- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
+
+
+- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
+
+
+- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
+
+
+- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
+
+
+- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
+
+
+- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+- 0x010D (LATIN SMALL LETTER C WITH CARON)
+
+
+- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
+
+
+- 0x010F (LATIN SMALL LETTER D WITH CARON)
+
+
+- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
+
+
+- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
+
+
+- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
+
+
+- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
+
+
+- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
+
+
+- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
+
+
+- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
+
+
+- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
+
+
+- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
+
+
+- 0x011B (LATIN SMALL LETTER E WITH CARON)
+
+
+- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
+
+
+- 0x011F (LATIN SMALL LETTER G WITH BREVE)
+
+
+- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
+
+
+- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
+
+
+- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
+
+
+- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
+
+
+- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
+
+
+- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
+
+
+- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
+
+
+- 0x012B (LATIN SMALL LETTER I WITH MACRON)
+
+
+- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
+
+
+- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
+
+
+- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
+
+
+- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
+
+
+- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
+
+
+- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
+
+
+- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
+
+
+- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
+
+
+- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
+
+
+- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
+
+
+- 0x013E (LATIN SMALL LETTER L WITH CARON)
+
+
+- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
+
+
+- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
+
+
+- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
+
+
+- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
+
+
+- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
+
+
+- 0x0148 (LATIN SMALL LETTER N WITH CARON)
+
+
+- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
+
+
+- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
+
+
+- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
+
+
+- 0x0159 (LATIN SMALL LETTER R WITH CARON)
+
+
+- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
+
+
+- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
+
+
+- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
+
+
+- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
+
+
+- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
+
+
+- 0x0165 (LATIN SMALL LETTER T WITH CARON)
+
+
+- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
+
+
+- 0x016B (LATIN SMALL LETTER U WITH MACRON)
+
+
+- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
+
+
+- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
+
+
+- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
+
+
+- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
+
+
+- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
+
+
+- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
+
+
+- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
+
+
+- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
+
+
+- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
+
+
+- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
+
+
+- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
+
+
+- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
+
+
+- 0x0237 (LATIN SMALL LETTER DOTLESS J)
+
+
+- 0x0300 (COMBINING GRAVE ACCENT)
+
+
+- 0x0301 (COMBINING ACUTE ACCENT)
+
+
+- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
+
+
+- 0x0303 (COMBINING TILDE)
+
+
+- 0x0304 (COMBINING MACRON)
+
+
+- 0x0306 (COMBINING BREVE)
+
+
+- 0x0307 (COMBINING DOT ABOVE)
+
+
+- 0x0308 (COMBINING DIAERESIS)
+
+
+- 0x030A (COMBINING RING ABOVE)
+
+
+- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
+
+
+- 0x030C (COMBINING CARON)
+
+
+- 0x0326 (COMBINING COMMA BELOW)
+
+
+- 0x0327 (COMBINING CEDILLA)
+
+
+- 0x0328 (COMBINING OGONEK)
+
+
+- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
+
+
+- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
+
+
+- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
+
+
+- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
+
+
+- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
+
+
+- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
+
+
+- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+
+
+- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
+
+
+- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
+</code></pre>
+
+                            
+                             [code: missing-codepoints]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -3934,12 +5456,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3956,12 +5474,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -3978,12 +5492,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4000,83 +5510,9 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + f
-
-- f + i
-
-- f + ij
-
-- f + l
-</code></pre>
-
-                            
-                             [code: lacks-kern-info]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + f
-
-- f + i
-
-- f + ij
-
-- f + l
-</code></pre>
-
-                            
-                             [code: lacks-kern-info]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -4092,12 +5528,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4114,67 +5546,9 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>This variable font does not have an avar table.</p>
-
-                            
-                             [code: missing-avar]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>This variable font does not have an avar table.</p>
-
-                            
-                             [code: missing-avar]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -4190,8 +5564,6 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
@@ -4199,36 +5571,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                RadioCanadaDisplay[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>This font file does not have a 'meta' table.</p>
-
-                            
-                             [code: lacks-meta-table]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-    
-        <details>
-            <summary>
-                ⚠️
-                RadioCanadaDisplay-Italic[wght].ttf
+                Menbere2020B-Bold.ttf
                 
             </summary>
             <div>
@@ -4266,12 +5609,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4288,12 +5627,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4310,12 +5645,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4332,12 +5663,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4354,12 +5681,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4376,12 +5699,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4398,12 +5717,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4420,12 +5735,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4460,12 +5771,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4482,12 +5789,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4504,12 +5807,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4544,12 +5843,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4566,12 +5861,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4588,12 +5879,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4610,12 +5897,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4632,12 +5915,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4672,12 +5951,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4694,12 +5969,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4716,12 +5987,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4740,12 +6007,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4762,12 +6025,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4784,12 +6043,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4806,12 +6061,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4828,13 +6079,50 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
 
     
+        <details>
+            <summary>
+                🔥
+                Menbere2020B-Bold.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
 
+                            <span class='details_text'>
+                            <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
+
+                            
+                             [code: bad-OS/2.sTypoLineGap]
+                            
+                            </span>
+                        </li>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 776 when it should be at least 1200</p>
+
+                            
+                             [code: bad-hhea-range]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
 
@@ -4850,12 +6138,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
@@ -4872,12 +6156,8 @@ definitions.</p>
 
     
 
-    
-
 </div>
 
-
-    
 
     
 
