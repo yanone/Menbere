@@ -1,0 +1,55 @@
+{
+glyphname = dotlessi;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+closed = 1;
+nodes = (
+(66.629,492.984,l),
+(66.629,0,l),
+(199.393,0,l),
+(199.393,492.984,l)
+);
+}
+);
+vertWidth = 1156;
+width = 266.0227;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(74.895,479.815,l),
+(74.895,0,l),
+(126.659,0,l),
+(126.659,479.815,l)
+);
+}
+);
+vertWidth = 656;
+width = 202.36661;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(71.495,485.205,l),
+(71.495,0,l),
+(161.259,0,l),
+(161.259,485.205,l)
+);
+}
+);
+vertWidth = 177;
+width = 232.84906;
+}
+);
+note = dotlessi;
+unicode = 305;
+}

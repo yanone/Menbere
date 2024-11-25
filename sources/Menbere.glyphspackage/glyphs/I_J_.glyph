@@ -1,0 +1,55 @@
+{
+glyphname = IJ;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (374,0);
+ref = J;
+}
+);
+vertWidth = 1156;
+width = 630.12763;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (305,0);
+ref = J;
+}
+);
+vertWidth = 656;
+width = 490.80857;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+alignment = -1;
+ref = I;
+},
+{
+alignment = -1;
+pos = (338,0);
+ref = J;
+}
+);
+vertWidth = 177;
+width = 553.79361;
+}
+);
+note = IJ;
+unicode = 306;
+}
