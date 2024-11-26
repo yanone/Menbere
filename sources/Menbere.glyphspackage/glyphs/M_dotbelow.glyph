@@ -1,0 +1,45 @@
+{
+glyphname = Mdotbelow;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (318,0);
+ref = dotbelowcomb;
+}
+);
+width = 817;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (324,0);
+ref = dotbelowcomb;
+}
+);
+width = 790;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (325,0);
+ref = dotbelowcomb;
+}
+);
+width = 757;
+}
+);
+unicode = 7746;
+}

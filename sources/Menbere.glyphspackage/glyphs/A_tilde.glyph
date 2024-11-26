@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Atilde;
 kernLeft = A;
 kernRight = A;
@@ -7,52 +8,40 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-alignment = -1;
-pos = (7,-9);
 ref = A;
 },
 {
-alignment = -1;
-pos = (99,165);
-ref = tilde;
+pos = (67,155);
+ref = tildecomb;
 }
 );
-vertWidth = 1156;
-width = 600.18949;
+width = 600;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-alignment = -1;
-pos = (-4,4);
 ref = A;
 },
 {
-alignment = -1;
-pos = (89,177);
-ref = tilde;
+pos = (57,168);
+ref = tildecomb;
 }
 );
-vertWidth = 656;
-width = 528.16028;
+width = 528;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-alignment = -1;
-pos = (1,-1);
 ref = A;
 },
 {
-alignment = -1;
-pos = (94,173);
-ref = tilde;
+pos = (62,163);
+ref = tildecomb;
 }
 );
-vertWidth = 177;
-width = 563.69934;
+width = 564;
 }
 );
 note = Atilde;

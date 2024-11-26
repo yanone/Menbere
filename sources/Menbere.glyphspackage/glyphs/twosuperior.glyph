@@ -1,50 +1,36 @@
 {
+color = 1;
 glyphname = twosuperior;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-alignment = -1;
-ref = ampersand;
+ref = two;
 }
 );
-width = 500;
+width = 562;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-closed = 1;
-nodes = (
-(450,0,l),
-(450,750,l),
-(50,750,l),
-(50,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(100,700,l),
-(400,700,l),
-(400,50,l),
-(100,50,l)
-);
+ref = two;
 }
 );
-width = 500;
+width = 562;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-alignment = -1;
-ref = ampersand;
+ref = two;
 }
 );
-width = 500;
+width = 561;
 }
 );
+metricLeft = two;
+metricRight = two;
 unicode = 178;
 }

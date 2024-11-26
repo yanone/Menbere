@@ -1,0 +1,36 @@
+{
+color = 1;
+glyphname = sixsuperior;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = six;
+}
+);
+width = 562;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = six;
+}
+);
+width = 562;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = six;
+}
+);
+width = 561;
+}
+);
+metricLeft = six;
+metricRight = six;
+unicode = 8310;
+}

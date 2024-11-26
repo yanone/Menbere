@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = Eogonek;
 layers = (
 {
@@ -15,7 +16,7 @@ ref = ogonek;
 }
 );
 vertWidth = 1156;
-width = 484.98879;
+width = 485;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -31,7 +32,7 @@ ref = ogonek;
 }
 );
 vertWidth = 656;
-width = 479.05409;
+width = 479;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -47,7 +48,7 @@ ref = ogonek;
 }
 );
 vertWidth = 177;
-width = 481.95582;
+width = 482;
 }
 );
 note = Eogonek;

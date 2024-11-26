@@ -1,0 +1,46 @@
+{
+color = 0;
+glyphname = bilabialclick;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (222.906,258.713);
+ref = period;
+}
+);
+width = 690;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (222.906,269.713);
+ref = period;
+}
+);
+width = 678;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (222.906,285.713);
+ref = period;
+}
+);
+width = 665;
+}
+);
+unicode = 664;
+}

@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Acircumflex;
 kernLeft = A;
 kernRight = A;
@@ -7,52 +8,40 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-alignment = -1;
-pos = (-14,-9);
 ref = A;
 },
 {
-alignment = -1;
-pos = (93,165);
-ref = circumflex;
+pos = (62,155);
+ref = circumflexcomb;
 }
 );
-vertWidth = 1156;
-width = 600.18949;
+width = 600;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-alignment = -1;
-pos = (7,4);
 ref = A;
 },
 {
-alignment = -1;
-pos = (113,177);
-ref = circumflex;
+pos = (83,155);
+ref = circumflexcomb;
 }
 );
-vertWidth = 656;
-width = 528.16028;
+width = 528;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-alignment = -1;
-pos = (-2,-1);
 ref = A;
 },
 {
-alignment = -1;
-pos = (104,173);
-ref = circumflex;
+pos = (75,155);
+ref = circumflexcomb;
 }
 );
-vertWidth = 177;
-width = 563.69934;
+width = 564;
 }
 );
 note = Acircumflex;

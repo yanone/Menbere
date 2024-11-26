@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Ygrave;
 kernLeft = Y;
 kernRight = Y;
@@ -7,52 +8,40 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-alignment = -1;
-pos = (-18,-9);
 ref = Y;
 },
 {
-alignment = -1;
-pos = (92,165);
-ref = grave;
+pos = (21,155);
+ref = gravecomb;
 }
 );
-vertWidth = 1156;
-width = 544.14414;
+width = 544;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-alignment = -1;
-pos = (8,4);
 ref = Y;
 },
 {
-alignment = -1;
-pos = (118,177);
-ref = grave;
+pos = (35,155);
+ref = gravecomb;
 }
 );
-vertWidth = 656;
-width = 464.66218;
+width = 465;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-alignment = -1;
-pos = (-3,-1);
 ref = Y;
 },
 {
-alignment = -1;
-pos = (107,173);
-ref = grave;
+pos = (39,155);
+ref = gravecomb;
 }
 );
-vertWidth = 177;
-width = 502.88258;
+width = 503;
 }
 );
 note = Ygrave;

@@ -1,0 +1,35 @@
+{
+color = 4;
+glyphname = clickretroflex;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 250;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 237;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 216;
+}
+);
+metricRight = "=|";
+unicode = 451;
+}

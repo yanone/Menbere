@@ -1,0 +1,45 @@
+{
+glyphname = Ecedilla;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (148,0);
+ref = cedillacomb;
+}
+);
+width = 485;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (133,0);
+ref = cedillacomb;
+}
+);
+width = 482;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (139,0);
+ref = cedillacomb;
+}
+);
+width = 479;
+}
+);
+unicode = 552;
+}

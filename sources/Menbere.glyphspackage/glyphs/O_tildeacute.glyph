@@ -1,0 +1,57 @@
+{
+glyphname = Otildeacute;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (112,155);
+ref = tildecomb;
+},
+{
+pos = (263,364);
+ref = acutecomb;
+}
+);
+width = 690;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (119,163);
+ref = tildecomb;
+},
+{
+pos = (267,353);
+ref = acutecomb;
+}
+);
+width = 678;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (126,168);
+ref = tildecomb;
+},
+{
+pos = (274,347);
+ref = acutecomb;
+}
+);
+width = 665;
+}
+);
+unicode = 7756;
+}

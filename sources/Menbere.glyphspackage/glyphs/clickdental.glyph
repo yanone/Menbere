@@ -1,0 +1,39 @@
+{
+color = 4;
+glyphname = clickdental;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+pos = (-144,0);
+ref = bar;
+}
+);
+width = 188;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+pos = (-150,0);
+ref = bar;
+}
+);
+width = 176;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+pos = (-149,0);
+ref = bar;
+}
+);
+width = 170;
+}
+);
+metricLeft = "=I+20";
+metricRight = "=|";
+unicode = 448;
+}
