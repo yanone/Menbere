@@ -1461,6 +1461,9 @@ width = 92;
 guides = (
 {
 pos = (0,109);
+},
+{
+pos = (-27.077,554);
 }
 );
 iconName = Bold;
@@ -1645,6 +1648,9 @@ width = 92;
 guides = (
 {
 pos = (0,109);
+},
+{
+pos = (-27.077,564);
 }
 );
 id = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -1823,6 +1829,11 @@ name = "92";
 width = 92;
 }
 );
+}
+);
+guides = (
+{
+pos = (-27.077,580);
 }
 );
 iconName = Light;

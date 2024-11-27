@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = lcommaaccent.loclMAH;
 layers = (
 {
@@ -8,6 +9,7 @@ shapes = (
 ref = l;
 },
 {
+pos = (-116,0);
 ref = commaaccentcomb;
 }
 );
@@ -20,6 +22,7 @@ shapes = (
 ref = l;
 },
 {
+pos = (-123,0);
 ref = commaaccentcomb;
 }
 );
@@ -32,6 +35,7 @@ shapes = (
 ref = l;
 },
 {
+pos = (-135,0);
 ref = commaaccentcomb;
 }
 );

@@ -21,7 +21,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (6,8);
+pos = (6,0);
 ref = tildecomb;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (-3,13);
+pos = (-3,0);
 ref = tildecomb;
 }
 );

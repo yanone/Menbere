@@ -11,7 +11,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (144,155);
+pos = (144,152);
 ref = ringcomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (122,155);
+pos = (122,152);
 ref = ringcomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (134,155);
+pos = (134,152);
 ref = ringcomb;
 }
 );

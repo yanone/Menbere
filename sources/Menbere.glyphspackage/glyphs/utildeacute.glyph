@@ -25,11 +25,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (52,8);
+pos = (52,0);
 ref = tildecomb;
 },
 {
-pos = (200,198);
+pos = (200,190);
 ref = acutecomb;
 }
 );
@@ -42,11 +42,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (52,13);
+pos = (52,0);
 ref = tildecomb;
 },
 {
-pos = (200,192);
+pos = (200,149);
 ref = acutecomb;
 }
 );

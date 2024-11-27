@@ -8,7 +8,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (78,105);
+pos = (56.466,105);
 ref = dotaccentcomb;
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (74,103);
+pos = (52.88,103);
 ref = dotaccentcomb;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (72,102);
+pos = (38.915,102);
 ref = dotaccentcomb;
 }
 );

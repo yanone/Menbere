@@ -34,7 +34,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (39.616,12);
+pos = (39.616,-1);
 ref = dblgravecomb;
 }
 );

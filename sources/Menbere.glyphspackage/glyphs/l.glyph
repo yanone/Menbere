@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 4;
 glyphname = l;
 kernLeft = b;
 layers = (
@@ -30,7 +30,6 @@ nodes = (
 (199,0,l),
 (199,686,l),
 (67,686,l),
-(67,0,l),
 (67,0,l)
 );
 }

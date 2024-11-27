@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Oslashacute;
 layers = (
 {
@@ -8,6 +9,7 @@ shapes = (
 ref = Oslash;
 },
 {
+pos = (263,152);
 ref = acutecomb;
 }
 );
@@ -20,6 +22,7 @@ shapes = (
 ref = Oslash;
 },
 {
+pos = (267,152);
 ref = acutecomb;
 }
 );
@@ -32,6 +35,7 @@ shapes = (
 ref = Oslash;
 },
 {
+pos = (274,152);
 ref = acutecomb;
 }
 );

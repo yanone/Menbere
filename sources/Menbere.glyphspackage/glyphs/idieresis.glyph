@@ -26,7 +26,7 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-181,0);
+pos = (-181,-13);
 ref = dieresiscomb;
 }
 );
@@ -41,7 +41,7 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-168,0);
+pos = (-168,-8);
 ref = dieresiscomb;
 }
 );
