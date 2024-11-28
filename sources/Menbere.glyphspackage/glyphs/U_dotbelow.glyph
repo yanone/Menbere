@@ -1,5 +1,5 @@
 {
-color = 1;
+color = 5;
 glyphname = Udotbelow;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (237,0);
+pos = (218,0);
 ref = dotbelowcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (248,0);
+pos = (229,0);
 ref = dotbelowcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (259,0);
+pos = (240,0);
 ref = dotbelowcomb;
 }
 );

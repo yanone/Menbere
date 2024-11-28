@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Oogonekmacron;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (395,-7);
+pos = (192.156,-7);
 ref = ogonekcomb;
 },
 {
@@ -25,7 +26,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (408,-5);
+pos = (216.156,-5);
 ref = ogonekcomb;
 },
 {
@@ -42,7 +43,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (417,-3);
+pos = (236.156,-3);
 ref = ogonekcomb;
 },
 {

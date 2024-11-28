@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Udieresisacute;
 layers = (
 {
@@ -12,7 +13,7 @@ pos = (33,155);
 ref = dieresiscomb;
 },
 {
-pos = (246,394);
+pos = (246,302.8);
 ref = acutecomb;
 }
 );
@@ -29,7 +30,7 @@ pos = (34,155);
 ref = dieresiscomb;
 },
 {
-pos = (247,378);
+pos = (244,298.8);
 ref = acutecomb;
 }
 );
@@ -46,7 +47,7 @@ pos = (31,155);
 ref = dieresiscomb;
 },
 {
-pos = (254,365);
+pos = (254,288.8);
 ref = acutecomb;
 }
 );

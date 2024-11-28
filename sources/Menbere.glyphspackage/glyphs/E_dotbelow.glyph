@@ -1,5 +1,5 @@
 {
-color = 1;
+color = 5;
 glyphname = Edotbelow;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (152,0);
+pos = (133,0);
 ref = dotbelowcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (170,0);
+pos = (151,0);
 ref = dotbelowcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (186,0);
+pos = (167,0);
 ref = dotbelowcomb;
 }
 );

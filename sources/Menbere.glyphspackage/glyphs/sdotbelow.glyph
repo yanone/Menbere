@@ -1,5 +1,5 @@
 {
-color = 1;
+color = 5;
 glyphname = sdotbelow;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (124,0);
+pos = (105,0);
 ref = dotbelowcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (138,0);
+pos = (119,0);
 ref = dotbelowcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (148,0);
+pos = (129,0);
 ref = dotbelowcomb;
 }
 );

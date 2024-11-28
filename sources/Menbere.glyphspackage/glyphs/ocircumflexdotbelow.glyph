@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = ocircumflexdotbelow;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (178,0);
+pos = (159,0);
 ref = dotbelowcomb;
 },
 {
@@ -25,7 +26,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (192,0);
+pos = (173,0);
 ref = dotbelowcomb;
 },
 {
@@ -42,7 +43,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (202,0);
+pos = (183,0);
 ref = dotbelowcomb;
 },
 {

@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = aemacron;
 layers = (
 {
@@ -21,7 +22,7 @@ shapes = (
 ref = ae;
 },
 {
-pos = (195,0);
+pos = (195,-8);
 ref = macroncomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = ae;
 },
 {
-pos = (198,0);
+pos = (198,-13);
 ref = macroncomb;
 }
 );

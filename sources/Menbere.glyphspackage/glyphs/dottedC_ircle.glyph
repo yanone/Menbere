@@ -21,7 +21,7 @@ pos = (501.96,1047);
 },
 {
 name = topright;
-pos = (750.482,769.558);
+pos = (837.45,856.945);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -240,8 +240,20 @@ name = bottom;
 pos = (501.96,0);
 },
 {
+name = center;
+pos = (502.482,523.558);
+},
+{
+name = ogonek;
+pos = (716.482,286.558);
+},
+{
 name = top;
 pos = (501.96,1047);
+},
+{
+name = topright;
+pos = (837.45,856.945);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -460,8 +472,20 @@ name = bottom;
 pos = (501.96,0);
 },
 {
+name = center;
+pos = (502.482,523.558);
+},
+{
+name = ogonek;
+pos = (716.482,286.558);
+},
+{
 name = top;
 pos = (501.96,1047);
+},
+{
+name = topright;
+pos = (837.45,856.945);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";

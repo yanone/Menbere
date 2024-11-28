@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = adieresismacron;
 layers = (
 {
@@ -12,7 +13,7 @@ pos = (-32,0);
 ref = dieresiscomb;
 },
 {
-pos = (65,239);
+pos = (65,147.8);
 ref = macroncomb;
 }
 );
@@ -29,7 +30,7 @@ pos = (-37,0);
 ref = dieresiscomb;
 },
 {
-pos = (63,223);
+pos = (60,143.8);
 ref = macroncomb;
 }
 );
@@ -46,7 +47,7 @@ pos = (-50,0);
 ref = dieresiscomb;
 },
 {
-pos = (59,210);
+pos = (59,133.8);
 ref = macroncomb;
 }
 );

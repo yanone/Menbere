@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Odblgrave;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (45.78,155);
+pos = (26.78,155);
 ref = dblgravecomb;
 }
 );
@@ -21,7 +22,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (89.616,155);
+pos = (70.616,155);
 ref = dblgravecomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (113.616,167);
+pos = (94.616,167);
 ref = dblgravecomb;
 }
 );

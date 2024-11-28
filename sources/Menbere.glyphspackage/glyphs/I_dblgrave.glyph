@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = Idblgrave;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-129.22,152);
+pos = (-148.22,152);
 ref = dblgravecomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-97.384,152);
+pos = (-116.384,152);
 ref = dblgravecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-84.384,164);
+pos = (-103.384,164);
 ref = dblgravecomb;
 }
 );

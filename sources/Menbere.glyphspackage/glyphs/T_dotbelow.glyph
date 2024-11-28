@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = Tdotbelow;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (161,0);
+pos = (142,0);
 ref = dotbelowcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (172,0);
+pos = (153,0);
 ref = dotbelowcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (176,0);
+pos = (157,0);
 ref = dotbelowcomb;
 }
 );

@@ -1,17 +1,45 @@
 {
+color = 5;
 glyphname = dcircumflexbelow;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
-width = 600;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (37,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 549;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
-width = 600;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (61,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 536;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
-width = 600;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (79,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 520;
 }
 );
 unicode = 7699;

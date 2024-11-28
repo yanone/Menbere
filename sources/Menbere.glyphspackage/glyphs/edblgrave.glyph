@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = edblgrave;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-42.22,0);
+pos = (-61.22,0);
 ref = dblgravecomb;
 }
 );
@@ -21,7 +22,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-1.384,0);
+pos = (-20.384,-8);
 ref = dblgravecomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (20.616,12);
+pos = (1.616,-1);
 ref = dblgravecomb;
 }
 );

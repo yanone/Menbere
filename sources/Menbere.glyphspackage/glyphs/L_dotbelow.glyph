@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Ldotbelow;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (178.477,0);
+pos = (159.477,0);
 ref = dotbelowcomb;
 }
 );
@@ -21,7 +22,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (191,0);
+pos = (172,0);
 ref = dotbelowcomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (199,0);
+pos = (180,0);
 ref = dotbelowcomb;
 }
 );

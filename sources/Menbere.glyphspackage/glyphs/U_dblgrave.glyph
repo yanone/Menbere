@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = Udblgrave;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (28.78,155);
+pos = (9.78,155);
 ref = dblgravecomb;
 }
 );
@@ -21,7 +22,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (69.616,155);
+pos = (50.616,155);
 ref = dblgravecomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (93.616,167);
+pos = (74.616,167);
 ref = dblgravecomb;
 }
 );

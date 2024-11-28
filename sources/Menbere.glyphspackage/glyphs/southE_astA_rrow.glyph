@@ -6,36 +6,36 @@ layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
 angle = 45;
-pos = (-152.409,365.533);
+pos = (-146.849,365.533);
 ref = upArrow;
 scale = (1,-1);
 }
 );
-width = 498.97;
+width = 504.53;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
 angle = 45;
-pos = (-147.459,365.533);
+pos = (-141.899,365.533);
 ref = upArrow;
 scale = (1,-1);
 }
 );
-width = 503.92;
+width = 509.48;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
 angle = 45;
-pos = (-142.509,365.533);
+pos = (-136.949,365.533);
 ref = upArrow;
 scale = (1,-1);
 }
 );
-width = 526.87;
+width = 532.43;
 }
 );
 metricLeft = hyphen;

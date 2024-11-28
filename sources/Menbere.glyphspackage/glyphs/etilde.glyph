@@ -22,7 +22,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (28,8);
+pos = (28,0);
 ref = tildecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (33,13);
+pos = (33,0);
 ref = tildecomb;
 }
 );

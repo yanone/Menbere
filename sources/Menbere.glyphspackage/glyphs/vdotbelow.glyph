@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = vdotbelow;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (158,0);
+pos = (139,0);
 ref = dotbelowcomb;
 }
 );
@@ -21,7 +22,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (155,0);
+pos = (136,0);
 ref = dotbelowcomb;
 }
 );
@@ -34,7 +35,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (150,0);
+pos = (131,0);
 ref = dotbelowcomb;
 }
 );

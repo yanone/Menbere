@@ -1,0 +1,58 @@
+{
+color = 5;
+glyphname = Odieresismacron;
+layers = (
+{
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (50,155);
+ref = dieresiscomb;
+},
+{
+pos = (147,302.8);
+ref = macroncomb;
+}
+);
+width = 690;
+},
+{
+layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (54,155);
+ref = dieresiscomb;
+},
+{
+pos = (151,298.8);
+ref = macroncomb;
+}
+);
+width = 678;
+},
+{
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (51,155);
+ref = dieresiscomb;
+},
+{
+pos = (160,288.8);
+ref = macroncomb;
+}
+);
+width = 665;
+}
+);
+unicode = 554;
+}
