@@ -1463,7 +1463,13 @@ guides = (
 pos = (0,-205);
 },
 {
-pos = (6.718,683);
+pos = (57.315,367);
+},
+{
+pos = (57.315,270);
+},
+{
+pos = (57.315,318.179);
 }
 );
 iconName = Bold;
@@ -1500,8 +1506,9 @@ stemValues = (
 50
 );
 userData = {
-GSOffsetHorizontal = 10;
-GSOffsetVertical = 8;
+GSOffsetHorizontal = 13;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = 13;
 };
 },
 {
@@ -1645,14 +1652,6 @@ width = 92;
 );
 }
 );
-guides = (
-{
-pos = (0,109);
-},
-{
-pos = (-27.077,564);
-}
-);
 id = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 metricValues = (
 {
@@ -1686,8 +1685,9 @@ stemValues = (
 50
 );
 userData = {
-GSOffsetHorizontal = 11;
-GSOffsetVertical = 9;
+GSOffsetHorizontal = -12;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = -7;
 };
 },
 {
@@ -1831,17 +1831,6 @@ width = 92;
 );
 }
 );
-guides = (
-{
-pos = (-27.077,580);
-},
-{
-pos = (111.289,297);
-},
-{
-pos = (111.289,340);
-}
-);
 iconName = Light;
 id = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 metricValues = (
@@ -1875,6 +1864,11 @@ stemValues = (
 92,
 50
 );
+userData = {
+GSOffsetHorizontal = -20;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = -20;
+};
 }
 );
 instances = (

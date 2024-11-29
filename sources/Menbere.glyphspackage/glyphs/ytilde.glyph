@@ -35,7 +35,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (-3,13);
+pos = (-3,0);
 ref = tildecomb;
 }
 );

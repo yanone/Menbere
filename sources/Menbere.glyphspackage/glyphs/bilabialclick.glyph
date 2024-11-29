@@ -9,7 +9,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (222.906,258.713);
+pos = (223,259);
 ref = period;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (222.906,269.713);
+pos = (223,270);
 ref = period;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (222.906,285.713);
+pos = (223,286);
 ref = period;
 }
 );

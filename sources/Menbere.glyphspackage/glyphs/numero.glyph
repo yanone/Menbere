@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = numero;
 layers = (
 {
@@ -8,8 +9,13 @@ shapes = (
 ref = N;
 },
 {
-pos = (708,0);
+alignment = -1;
+pos = (708,148.574);
 ref = o;
+},
+{
+pos = (786.837,-269.275);
+ref = hyphen;
 }
 );
 width = 1245;
@@ -21,8 +27,13 @@ shapes = (
 ref = N;
 },
 {
-pos = (668,0);
+alignment = -1;
+pos = (668,156.942);
 ref = o;
+},
+{
+pos = (746.837,-283.275);
+ref = hyphen;
 }
 );
 width = 1194;
@@ -34,8 +45,13 @@ shapes = (
 ref = N;
 },
 {
-pos = (632,0);
+alignment = -1;
+pos = (632,160.387);
 ref = o;
+},
+{
+pos = (703.837,-296.275);
+ref = hyphen;
 }
 );
 width = 1144;

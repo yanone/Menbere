@@ -4,14 +4,47 @@ glyphname = "vowellengthcomb-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,683,l),
+(118,739,l),
+(58,624,l),
+(180,568,l)
+);
+}
+);
 width = 300;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(199,744,l),
+(115,785,l),
+(74,701,l),
+(158,660,l)
+);
+}
+);
 width = 300;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(179,722,l),
+(129,748,l),
+(105,695,l),
+(155,669,l)
+);
+}
+);
 width = 300;
 }
 );

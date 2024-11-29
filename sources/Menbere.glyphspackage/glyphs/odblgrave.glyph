@@ -9,7 +9,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-49.22,0);
+pos = (-49,0);
 ref = dblgravecomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-5.384,0);
+pos = (-5,0);
 ref = dblgravecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (17.616,12);
+pos = (18,12);
 ref = dblgravecomb;
 }
 );

@@ -35,7 +35,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (31,0);
+pos = (31,-13);
 ref = macroncomb;
 }
 );
