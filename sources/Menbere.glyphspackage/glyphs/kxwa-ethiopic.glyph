@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 3;
 glyphname = "kxwa-ethiopic";
 kernLeft = _uni12B8;
 layers = (
@@ -48,7 +48,7 @@ nodes = (
 (768,407,o),
 (729,380,cs),
 (705,362,o),
-(688,346,o),
+(698,346,o),
 (652,340,c),
 (646,463,o),
 (574,529,o),
@@ -120,7 +120,7 @@ nodes = (
 );
 }
 );
-width = 1057;
+width = 1062;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -239,7 +239,7 @@ nodes = (
 );
 }
 );
-width = 1015;
+width = 1019;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -358,7 +358,7 @@ nodes = (
 );
 }
 );
-width = 976;
+width = 980;
 }
 );
 unicode = 4800;

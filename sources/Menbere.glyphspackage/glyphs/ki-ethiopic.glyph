@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "ki-ethiopic";
 kernRight = _uni120A;
 layers = (

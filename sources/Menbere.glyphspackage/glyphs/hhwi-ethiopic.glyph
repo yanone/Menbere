@@ -180,7 +180,7 @@ nodes = (
 );
 }
 );
-width = 1131.55;
+width = 1136.55;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -312,7 +312,7 @@ nodes = (
 );
 }
 );
-width = 1090.5;
+width = 1094.5;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -444,7 +444,7 @@ nodes = (
 );
 }
 );
-width = 1082.58;
+width = 1086.58;
 }
 );
 metricLeft = "hhya-ethiopic";

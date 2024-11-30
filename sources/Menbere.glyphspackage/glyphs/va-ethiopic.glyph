@@ -206,5 +206,6 @@ nodes = (
 width = 533;
 }
 );
+metricLeft = "ba-ethiopic";
 unicode = 4712;
 }
