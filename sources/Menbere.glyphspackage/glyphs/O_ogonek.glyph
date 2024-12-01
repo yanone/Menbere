@@ -9,7 +9,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (260,0.4);
+pos = (260,0);
 ref = ogonekcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (335,0.4);
+pos = (335,0);
 ref = ogonekcomb;
 }
 );

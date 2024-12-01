@@ -28,11 +28,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (103.6,0.3);
+pos = (104,0);
 ref = macroncomb;
 },
 {
-pos = (66.2,226.9);
+pos = (66,226);
 ref = gravecomb;
 }
 );
@@ -45,11 +45,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (111.1,0.3);
+pos = (111,0);
 ref = macroncomb;
 },
 {
-pos = (77,197.2);
+pos = (77,197);
 ref = gravecomb;
 }
 );

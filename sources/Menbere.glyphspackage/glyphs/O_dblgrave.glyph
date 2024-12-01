@@ -10,7 +10,7 @@ ref = O;
 },
 {
 pos = (35,205);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 919;
@@ -23,7 +23,7 @@ ref = O;
 },
 {
 pos = (95,205);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 902;
@@ -36,7 +36,7 @@ ref = O;
 },
 {
 pos = (126,222);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 886;

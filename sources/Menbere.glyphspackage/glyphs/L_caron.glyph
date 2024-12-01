@@ -10,7 +10,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (399,0);
+pos = (399,1);
 ref = caroncomb.alt;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (613,0);
+pos = (417.672,0);
 ref = caroncomb.alt;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (658.5,0);
+pos = (400.109,2);
 ref = caroncomb.alt;
 }
 );

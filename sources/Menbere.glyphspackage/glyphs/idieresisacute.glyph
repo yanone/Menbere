@@ -27,11 +27,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-223.5,-10.7);
+pos = (-224,-11);
 ref = dieresiscomb;
 },
 {
-pos = (55.9,180.7);
+pos = (55,180);
 ref = acutecomb;
 }
 );
@@ -44,11 +44,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-241.1,-17.7);
+pos = (-241,-18);
 ref = dieresiscomb;
 },
 {
-pos = (55.9,160.5);
+pos = (56,160);
 ref = acutecomb;
 }
 );

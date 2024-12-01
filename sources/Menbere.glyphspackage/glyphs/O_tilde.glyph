@@ -11,7 +11,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (148.8,205.3);
+pos = (149,205);
 ref = tildecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (168,222.9);
+pos = (168,223);
 ref = tildecomb;
 }
 );

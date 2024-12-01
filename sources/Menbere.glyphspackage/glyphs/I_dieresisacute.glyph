@@ -10,11 +10,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-165.7,201.3);
+pos = (-166,201);
 ref = dieresiscomb;
 },
 {
-pos = (118.1,398.2);
+pos = (118,398);
 ref = acutecomb;
 }
 );
@@ -44,11 +44,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-196.1,201.3);
+pos = (-196,201);
 ref = dieresiscomb;
 },
 {
-pos = (100.9,379.5);
+pos = (101,379);
 ref = acutecomb;
 }
 );

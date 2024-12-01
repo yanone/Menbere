@@ -11,11 +11,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (203.7,0);
+pos = (204,0);
 ref = dotbelowcomb;
 },
 {
-pos = (33.2,0.3);
+pos = (33,0);
 ref = circumflexcomb;
 }
 );
@@ -28,11 +28,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (210.1,0);
+pos = (210,0);
 ref = dotbelowcomb;
 },
 {
-pos = (55,0.3);
+pos = (55,0);
 ref = circumflexcomb;
 }
 );
@@ -45,11 +45,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (212.2,0);
+pos = (212,0);
 ref = dotbelowcomb;
 },
 {
-pos = (68.1,0.3);
+pos = (68,0);
 ref = circumflexcomb;
 }
 );

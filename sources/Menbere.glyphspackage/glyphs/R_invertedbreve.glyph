@@ -10,7 +10,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (89.4,201.3);
+pos = (89,201);
 ref = breveinvertedcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (118.1,218.9);
+pos = (118,219);
 ref = breveinvertedcomb;
 }
 );

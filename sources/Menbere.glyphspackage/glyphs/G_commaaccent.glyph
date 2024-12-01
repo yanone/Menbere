@@ -12,7 +12,7 @@ alignment = -1;
 ref = G;
 },
 {
-pos = (116.9,0);
+pos = (91.68,0);
 ref = commaaccentcomb;
 }
 );
@@ -27,7 +27,7 @@ alignment = -1;
 ref = G;
 },
 {
-pos = (156.4,0);
+pos = (124.93,0);
 ref = commaaccentcomb;
 }
 );
@@ -42,7 +42,7 @@ alignment = -1;
 ref = G;
 },
 {
-pos = (147,0);
+pos = (116.195,0);
 ref = commaaccentcomb;
 }
 );

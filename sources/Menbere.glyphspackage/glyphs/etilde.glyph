@@ -23,7 +23,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (37.4,0.3);
+pos = (37,0);
 ref = tildecomb;
 }
 );

@@ -10,7 +10,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (17.2,201.3);
+pos = (17,201);
 ref = caroncomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (90.1,201.3);
+pos = (90,201);
 ref = caroncomb;
 }
 );

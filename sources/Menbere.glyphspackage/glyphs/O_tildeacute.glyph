@@ -10,11 +10,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (148.8,205.3);
+pos = (149,205);
 ref = tildecomb;
 },
 {
-pos = (350.1,482.5);
+pos = (350,482);
 ref = acutecomb;
 }
 );
@@ -44,11 +44,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (168,222.9);
+pos = (168,223);
 ref = tildecomb;
 },
 {
-pos = (364.9,420.9);
+pos = (365,421);
 ref = acutecomb;
 }
 );

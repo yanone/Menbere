@@ -10,11 +10,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (66.3,205.3);
+pos = (66,205);
 ref = dieresiscomb;
 },
 {
-pos = (195,402.2);
+pos = (195,402);
 ref = macroncomb;
 }
 );
@@ -44,11 +44,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (67.9,205.3);
+pos = (68,205);
 ref = dieresiscomb;
 },
 {
-pos = (213.1,383.5);
+pos = (213,383);
 ref = macroncomb;
 }
 );

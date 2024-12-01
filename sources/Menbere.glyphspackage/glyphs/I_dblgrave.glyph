@@ -10,7 +10,7 @@ ref = I;
 },
 {
 pos = (-197,201);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 451;
@@ -23,7 +23,7 @@ ref = I;
 },
 {
 pos = (-154,201);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 404;
@@ -36,7 +36,7 @@ ref = I;
 },
 {
 pos = (-138,218);
-ref = dblgravecomb;
+ref = dblgravecomb.case;
 }
 );
 width = 360;

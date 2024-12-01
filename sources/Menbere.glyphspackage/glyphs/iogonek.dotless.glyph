@@ -22,7 +22,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-35,0.4);
+pos = (-35,0);
 ref = ogonekcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-53,0.4);
+pos = (-53,0);
 ref = ogonekcomb;
 }
 );
