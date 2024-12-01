@@ -9,7 +9,7 @@ shapes = (
 ref = oslash;
 },
 {
-pos = (248.6,0);
+pos = (249,0);
 ref = acutecomb;
 }
 );
@@ -22,11 +22,11 @@ shapes = (
 ref = oslash;
 },
 {
-pos = (254.1,-11);
+pos = (254.3,-10.7);
 ref = acutecomb;
 }
 );
-width = 699.6;
+width = 700;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,7 +35,7 @@ shapes = (
 ref = oslash;
 },
 {
-pos = (262.9,-17.6);
+pos = (262.9,-17.7);
 ref = acutecomb;
 }
 );

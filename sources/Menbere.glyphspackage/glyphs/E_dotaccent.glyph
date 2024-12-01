@@ -11,11 +11,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (173.8,201.3);
+pos = (173.4,201.3);
 ref = dotaccentcomb;
 }
 );
-width = 645.7;
+width = 646;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -37,11 +37,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (200.2,201.3);
+pos = (200,201.3);
 ref = dotaccentcomb;
 }
 );
-width = 641.3;
+width = 641;
 }
 );
 note = Edotaccent;

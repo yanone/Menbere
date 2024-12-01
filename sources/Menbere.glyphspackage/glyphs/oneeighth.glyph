@@ -8,15 +8,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (665.5,0);
+pos = (665.2,0);
 ref = fraction;
 },
 {
-pos = (887.7,0);
+pos = (887.6,0);
 ref = eight.dnom;
 }
 );
-width = 1544.4;
+width = 1544.6;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -25,11 +25,11 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (623.7,0);
+pos = (623.4,0);
 ref = fraction;
 },
 {
-pos = (815.1,0);
+pos = (814.6,0);
 ref = eight.dnom;
 }
 );
@@ -42,15 +42,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (588.5,0);
+pos = (588.2,0);
 ref = fraction;
 },
 {
-pos = (756.8,0);
+pos = (756.7,0);
 ref = eight.dnom;
 }
 );
-width = 1433.3;
+width = 1433.7;
 }
 );
 unicode = 8539;

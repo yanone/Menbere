@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (47.3,0);
+pos = (48,0);
 ref = tildecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (66,17.6);
+pos = (66,17.9);
 ref = tildecomb;
 }
 );
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (57.2,11);
+pos = (57.4,11.3);
 ref = tildecomb;
 }
 );
-width = 699.6;
+width = 700;
 }
 );
 note = otilde;

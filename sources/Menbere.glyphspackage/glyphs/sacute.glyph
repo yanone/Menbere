@@ -11,7 +11,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (177.1,0);
+pos = (177,0);
 ref = acutecomb;
 }
 );
@@ -24,11 +24,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (190.3,-17.6);
+pos = (189.9,-17.7);
 ref = acutecomb;
 }
 );
-width = 537.9;
+width = 538;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (182.6,-11);
+pos = (182.3,-10.7);
 ref = acutecomb;
 }
 );
-width = 555.5;
+width = 556;
 }
 );
 note = sacute;

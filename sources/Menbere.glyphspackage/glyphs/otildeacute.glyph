@@ -10,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (47.3,0);
+pos = (48,0);
 ref = tildecomb;
 },
 {
-pos = (248.6,277.2);
+pos = (249,277);
 ref = acutecomb;
 }
 );
@@ -27,15 +27,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (57.2,11);
+pos = (57.4,11.3);
 ref = tildecomb;
 },
 {
-pos = (254.1,262.9);
+pos = (254.3,263.2);
 ref = acutecomb;
 }
 );
-width = 699.6;
+width = 700;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -44,11 +44,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (66,17.6);
+pos = (66,17.9);
 ref = tildecomb;
 },
 {
-pos = (262.9,215.6);
+pos = (262.9,215.9);
 ref = acutecomb;
 }
 );

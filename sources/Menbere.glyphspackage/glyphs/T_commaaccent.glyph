@@ -13,7 +13,7 @@ ref = T;
 },
 {
 alignment = -1;
-pos = (45.1,0);
+pos = (45,0);
 ref = commaaccentcomb;
 }
 );
@@ -34,7 +34,7 @@ ref = commaaccentcomb;
 }
 );
 vertWidth = 873.4;
-width = 612.7;
+width = 613;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -45,12 +45,12 @@ ref = T;
 },
 {
 alignment = -1;
-pos = (45.1,0);
+pos = (45,0);
 ref = commaaccentcomb;
 }
 );
 vertWidth = 235.4;
-width = 645.7;
+width = 646;
 }
 );
 note = uni021A;

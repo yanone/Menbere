@@ -5,31 +5,31 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-pos = (-174.9,0);
+pos = (-174,0);
 ref = commaaccentcomb;
 }
 );
-width = 311.3;
+width = 313;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-pos = (-182.6,0);
+pos = (-182,0);
 ref = commaaccentcomb;
 }
 );
-width = 272.8;
+width = 274;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-pos = (-196.9,0);
+pos = (-196,0);
 ref = commaaccentcomb;
 }
 );
-width = 233.2;
+width = 235;
 }
 );
 metricLeft = hyphen;

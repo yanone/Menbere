@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (23.1,0);
+pos = (24,0);
 ref = gravecomb;
 }
 );
@@ -41,7 +41,7 @@ pos = (66,0);
 ref = gravecomb;
 }
 );
-width = 699.6;
+width = 700;
 }
 );
 note = ograve;

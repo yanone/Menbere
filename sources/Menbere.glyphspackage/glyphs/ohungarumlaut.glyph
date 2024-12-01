@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (60.5,0);
+pos = (60.7,0.3);
 ref = hungarumlautcomb;
 }
 );
-width = 699.6;
+width = 700;
 }
 );
 note = ohungarumlaut;

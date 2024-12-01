@@ -11,11 +11,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (44,205.7);
+pos = (44.3,205.3);
 ref = dieresiscomb;
 }
 );
-width = 873.4;
+width = 873;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (41.8,205.7);
+pos = (41.9,205.3);
 ref = dieresiscomb;
 }
 );
-width = 831.6;
+width = 832;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (45.1,205.7);
+pos = (45.5,205.3);
 ref = dieresiscomb;
 }
 );
-width = 849.2;
+width = 849;
 }
 );
 note = Udieresis;

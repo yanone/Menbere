@@ -11,11 +11,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (292.6,201.3);
+pos = (292.4,201.3);
 ref = dotaccentcomb;
 }
 );
-width = 882.2;
+width = 882;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -24,7 +24,7 @@ shapes = (
 ref = H;
 },
 {
-pos = (309.1,201.3);
+pos = (309,201.3);
 ref = dotaccentcomb;
 }
 );
@@ -37,11 +37,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (316.8,201.3);
+pos = (316.9,201.3);
 ref = dotaccentcomb;
 }
 );
-width = 832.7;
+width = 833;
 }
 );
 unicode = 7714;

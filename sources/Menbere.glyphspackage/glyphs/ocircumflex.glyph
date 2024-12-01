@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (40.7,0);
+pos = (41,0);
 ref = circumflexcomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (100.1,0);
+pos = (100.1,0.3);
 ref = circumflexcomb;
 }
 );
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (74.8,0);
+pos = (75,0.3);
 ref = circumflexcomb;
 }
 );
-width = 699.6;
+width = 700;
 }
 );
 note = ocircumflex;

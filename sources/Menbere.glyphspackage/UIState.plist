@@ -1,35 +1,6 @@
 {
 displayStrings = (
-"ወደቦች",
-"ጦ",
-"፤",
-"
-ስሟስሜ
-TEHTHDIV 
-TEHOODIV 
-nirid 
-TEHEDIV 
-nialid 
-niffid 
-nifoid 
-nitwid 
-ውኃጽሑ
-nitid 
-TEHTHDIV 
-nitid 
-niffid 
-nirid 
-TEHOODIV 
-TEHEDIV 
-nifoid 
-nitwid 
-nirvid 
-nicid 
-ማዊመሠ
-niewid 
-TEHRADIV 
-ማዊTEHXXDIV 
-nicid ",
-I
+"AÁĂǍÂẬȀÄǞȦẠÀĀĄÅÃⱯÆǼǢBḄƁḆCĆČÇĈĊDĎḒĐḊḌƊḎÐEÉĚȨÊỆȄËĖẸÈĒḖḔĘƐẼḚƎƏFGĞǦĜĢĠḠHĦĤḢḤꞍIĲÍǏÎȈÏḮİỊÌĪĮĨḬJ/Jacute ĴKḰǨĶḲƘḴLĹĽḼĻĿḶŁMḾṂƜNŃŇṊŅṄṆǸƝṈÑŊOÓǑÔỘȌÖȪỌÒŐŌṒṐǪǬƆØǾÕṌŒPṔÞQRŔŘŖṚȒSŚŠŞŜȘṠṢẞTŤŢṰȚṪṬṮUÚŬǓÛȔÜǗṲỤÙŰŪŲŮŨṸṴVṾṼɅWẂŴẄẀXẊYÝŶŸỲƳȲỸZŹŽẐŻẒẔꞋ/Lcommaaccent.loclMAH/Ncommaaccent.loclMAH aáăǎâậȁäǟȧạàāąåãɐæǽǣbḅɓʘḇcćčçĉċdďḓđḋḍɗḏðeéěȩêệȅëėẹèēḗḕęɛẽḛǝəfgğǧĝģġḡhħĥḣḥẖɥiıíǐîȉïḯ/idotaccent ịìīįĩḭĳjȷ/jacute ǰĵkḱǩķḳĸƙḵlĺľḽļŀḷłmḿṃɯnńňṋņṅṇǹɲṉñŋoóǒôộȍöȫọòőōṓṑǫǭɔøǿõṍœpṕþqrŕřŗṛȓsśšşŝșṡṣßtťţṱțṫṭṯuúŭǔûȕüǘṳụùűūųůũṹṵvṿṽʌwẃŵẅẁxẋyýŷÿỳƴȳỹzźžẑżẓẕꞌ/idotbelow.dotless/iogonek.dotless/itildebelow.dotless/lcommaaccent.loclMAH/ncommaaccent.loclMAH ﬁﬂªºǂǀǁǃሀሁሂሃሄህሆሇለሉሊላሌልሎሏሐሑሒሓሔሕሖሗመሙሚማሜምሞሟሠሡሢሣሤሥሦሧረሩሪራሬርሮሯሰሱሲሳሴስሶሷሸሹሺሻሼሽሾሿቀቁቂቃቄቅቆቇቈቊቋቌቍቐቑቒቓቔቕቖቘቚቛቜቝበቡቢባቤብቦቧቨቩቪቫቬቭቮቯተቱቲታቴትቶቷቸቹቺቻቼችቾቿኀኁኂኃኄኅኆኇኈኊኋኌኍነኑኒናኔንኖኗኘኙኚኛኜኝኞኟአኡኢኣኤእኦኧከኩኪካኬክኮኯኰኲኳኴኵኸኹኺኻኼኽኾዀዂዃዄዅወዉዊዋዌውዎዏዐዑዒዓዔዕዖዘዙዚዛዜዝዞዟዠዡዢዣዤዥዦዧየዩዪያዬይዮዯደዱዲዳዴድዶዷዸዹዺዻዼዽዾዿጀጁጂጃጄጅጆጇገጉጊጋጌግጎጏጐጒጓጔጕጘጙጚጛጜጝጞጟጠጡጢጣጤጥጦጧጨጩጪጫጬጭጮጯጰጱጲጳጴጵጶጷጸጹጺጻጼጽጾጿፀፁፂፃፄፅፆፇፈፉፊፋፌፍፎፏፐፑፒፓፔፕፖፗፘፙፚᎀᎁᎂᎃᎄᎅᎆᎇᎈᎉᎊᎋᎌᎍᎎᎏⶀⶁⶂⶃⶄⶅⶆⶇⶈⶉⶊⶋⶌⶍⶎⶏⶐⶑⶒⶓⶔⶕⶖⶠⶡⶢⶣⶤⶥⶦⶨⶩⶪⶫⶬⶭⶮⶰⶱⶲⶳⶴⶵⶶⶸⶹⶺⶻⶼⶽⶾⷀⷁⷂⷃⷄⷅⷆⷈⷉⷊⷋⷌⷍⷎⷐⷑⷒⷓⷔⷕⷖⷘⷙⷚⷛⷜⷝⷞꬁꬂꬃꬄꬅꬆꬉꬊꬋꬌꬍꬎꬑꬒꬓꬔꬕꬖꬠꬡꬢꬣꬤꬥꬦꬨꬩꬪꬫꬬꬭꬮ𞟠𞟡𞟢𞟣𞟤𞟥𞟦𞟩𞟪𞟫𞟨𞟭𞟮𞟰𞟱𞟲𞟳𞟴𞟵𞟶𞟷𞟸𞟹𞟺𞟻𞟼𞟽𞟾፩፪፫፬፭፮፯፰፱፲፳፴፵፶፷፸፹፺፻፼0123456789/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ⁄½⅓⅔¼¾⅛⅜⅝⅞₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹ /nbspace/enspace/emspace/enquad/emquad/threeperemspace/fourperemspace/sixperemspace/figurespace/punctuationspace/thinspace/hairspace/zerowidthspace/narrownbspace/mediumspace-math/.notdef ፥፣፨።፦፧፠፤፡.,:;…!¡?¿·•*#///backslash/periodcentered.loclCAT/periodcentered.loclCAT.case -–—_(){}[]‚„“”‘’«»‹›\"'ƒ᎖᎑᎘᎔᎗᎕᎙᎒᎓᎐฿@&¶§©®™°|¦†‡℮№¢¤$€₭£¥+−×÷=><±≈¬~^∞∫√∂%‰↑↗→↘↓↙←↖↔↕◌◊፝፟፞̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̣̤̥̦̏̑̒/commaaccentcomb.loclMAH ̧̨̭̯̰̱/dotaccentcomb.case ¨˙`´˝ˆˇ˘˚˜¯¸˛ʼ/commaaccentrotate/overscorecomb",
+"̰/itildebelow.dotless"
 );
 }

@@ -10,7 +10,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-90.2,201.3);
+pos = (-89.8,201.3);
 ref = circumflexcomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-61.6,201.3);
+pos = (-61.9,201.3);
 ref = circumflexcomb;
 }
 );
-width = 359.7;
+width = 360;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +36,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-72.6,201.3);
+pos = (-73,201.3);
 ref = circumflexcomb;
 }
 );
-width = 403.7;
+width = 404;
 }
 );
 note = Icircumflex;

@@ -12,7 +12,7 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (141.9,0);
+pos = (142,0);
 ref = ogonek;
 }
 );
@@ -28,12 +28,12 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (84.7,0);
+pos = (85,0);
 ref = ogonek;
 }
 );
 vertWidth = 873.4;
-width = 359.7;
+width = 360;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -44,12 +44,12 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (124.3,0);
+pos = (124,0);
 ref = ogonek;
 }
 );
 vertWidth = 235.4;
-width = 403.7;
+width = 404;
 }
 );
 note = Iogonek;

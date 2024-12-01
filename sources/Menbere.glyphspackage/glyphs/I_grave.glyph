@@ -10,7 +10,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-107.8,201.3);
+pos = (-107.4,201.3);
 ref = gravecomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-84.7,201.3);
+pos = (-85,201.3);
 ref = gravecomb;
 }
 );
-width = 359.7;
+width = 360;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +36,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-81.4,201.3);
+pos = (-81.8,201.3);
 ref = gravecomb;
 }
 );
-width = 403.7;
+width = 404;
 }
 );
 note = Igrave;

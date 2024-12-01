@@ -11,11 +11,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (25.3,0);
+pos = (25.2,0.3);
 ref = circumflexcomb;
 }
 );
-width = 684.2;
+width = 684;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,7 +24,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (78.1,-17.6);
+pos = (78.1,-17.7);
 ref = circumflexcomb;
 }
 );
@@ -41,7 +41,7 @@ pos = (55,-11);
 ref = circumflexcomb;
 }
 );
-width = 658.9;
+width = 659;
 }
 );
 note = ecircumflex;

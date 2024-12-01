@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-35.2,0);
+pos = (-35,0);
 ref = dieresiscomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-34.1,0);
+pos = (-34.1,0.3);
 ref = dieresiscomb;
 }
 );
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-29.7,0);
+pos = (-29.5,0.3);
 ref = dieresiscomb;
 }
 );
-width = 699.6;
+width = 700;
 }
 );
 note = odieresis;

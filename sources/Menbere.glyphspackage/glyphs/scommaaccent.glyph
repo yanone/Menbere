@@ -13,7 +13,7 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-7.7,0);
+pos = (-8,0);
 ref = commaaccentcomb;
 }
 );
@@ -29,12 +29,12 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-7.7,0);
+pos = (-8,0);
 ref = commaaccentcomb;
 }
 );
 vertWidth = 873.4;
-width = 537.9;
+width = 538;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -45,12 +45,12 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-4.4,0);
+pos = (-4,0);
 ref = commaaccentcomb;
 }
 );
 vertWidth = 235.4;
-width = 555.5;
+width = 556;
 }
 );
 note = uni0219;

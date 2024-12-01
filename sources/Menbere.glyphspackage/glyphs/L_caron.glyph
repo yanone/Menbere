@@ -10,11 +10,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (399.3,0);
+pos = (399,0);
 ref = caroncomb.alt;
 }
 );
-width = 656.7;
+width = 657;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,7 +23,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (613.8,0);
+pos = (613,0);
 ref = caroncomb.alt;
 }
 );
@@ -36,11 +36,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (658.9,0);
+pos = (658.5,0);
 ref = caroncomb.alt;
 }
 );
-width = 617.1;
+width = 617;
 }
 );
 note = Lcaron;

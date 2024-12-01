@@ -11,11 +11,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (172.7,205.7);
+pos = (173,205.3);
 ref = macroncomb;
 }
 );
-width = 873.4;
+width = 873;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (187,205.7);
+pos = (187.1,205.3);
 ref = macroncomb;
 }
 );
-width = 831.6;
+width = 832;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (178.2,205.7);
+pos = (178.6,205.3);
 ref = macroncomb;
 }
 );
-width = 849.2;
+width = 849;
 }
 );
 note = Umacron;
