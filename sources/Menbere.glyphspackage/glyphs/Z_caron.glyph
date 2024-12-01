@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Zcaron;
+kernLeft = KO_Z;
 kernRight = KO_Z;
 layers = (
 {
@@ -36,7 +37,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (56,201.3);
+pos = (56,201);
 ref = caroncomb;
 }
 );

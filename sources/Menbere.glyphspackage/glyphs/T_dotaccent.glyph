@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Tdotaccent;
+kernLeft = KO_T;
 kernRight = KO_T;
 layers = (
 {
@@ -23,7 +24,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (202,201.3);
+pos = (202,201);
 ref = dotaccentcomb;
 }
 );

@@ -24,7 +24,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (243.1,0);
+pos = (243,0);
 ref = dotbelowcomb;
 }
 );

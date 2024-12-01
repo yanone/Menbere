@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Ytilde;
+kernLeft = KO_Y;
 kernRight = KO_Y;
 layers = (
 {
@@ -23,7 +24,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (43.4,216.3);
+pos = (43,216);
 ref = tildecomb;
 }
 );

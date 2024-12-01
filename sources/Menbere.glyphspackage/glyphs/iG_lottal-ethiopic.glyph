@@ -1,6 +1,7 @@
 {
 glyphname = "iGlottal-ethiopic";
-kernRight = "KO_iGlottal-ethiopic";
+kernLeft = "KO_iGlottal-ethiopic";
+kernRight = "KO_hhi-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

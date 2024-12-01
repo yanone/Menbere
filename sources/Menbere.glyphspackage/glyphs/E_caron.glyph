@@ -37,7 +37,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (46,201.3);
+pos = (46,201);
 ref = caroncomb;
 }
 );

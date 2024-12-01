@@ -37,7 +37,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (325,201.3);
+pos = (325,201);
 ref = dotaccentcomb;
 }
 );

@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = ohungarumlaut;
-kernLeft = KO_egrave;
+kernLeft = KO_e;
 kernRight = KO_o;
 layers = (
 {

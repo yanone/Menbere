@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Odieresismacron;
 kernLeft = KO_O;
+kernRight = KO_O;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -27,11 +28,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (71.5,205.3);
+pos = (71,205);
 ref = dieresiscomb;
 },
 {
-pos = (200.2,396.7);
+pos = (200,396);
 ref = macroncomb;
 }
 );

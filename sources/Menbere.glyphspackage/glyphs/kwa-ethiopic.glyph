@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = "kwa-ethiopic";
 kernLeft = "KO_ka-ethiopic";
 kernRight = "KO_lo-ethiopic";

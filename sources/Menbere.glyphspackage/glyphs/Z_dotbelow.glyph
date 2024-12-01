@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = Zdotbelow;
+kernLeft = KO_Z;
+kernRight = KO_Z;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -22,7 +24,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (211.1,0);
+pos = (211,0);
 ref = dotbelowcomb;
 }
 );

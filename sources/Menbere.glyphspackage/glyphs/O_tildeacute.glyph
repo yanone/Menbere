@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Otildeacute;
 kernLeft = KO_O;
+kernRight = KO_O;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -27,11 +28,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (158.4,216.3);
+pos = (158,216);
 ref = tildecomb;
 },
 {
-pos = (355.3,468.2);
+pos = (355,468);
 ref = acutecomb;
 }
 );

@@ -1,10 +1,16 @@
 {
-color = 9;
+color = 5;
 glyphname = fl;
 kernLeft = KO_f;
 kernRight = KO_i;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (401,0);
+}
+);
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
@@ -18,6 +24,12 @@ ref = l;
 width = 802;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (358,0);
+}
+);
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
@@ -31,6 +43,12 @@ ref = l;
 width = 716;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (307.5,0);
+}
+);
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {

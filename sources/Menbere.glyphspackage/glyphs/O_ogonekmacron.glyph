@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Oogonekmacron;
+kernLeft = KO_O;
 kernRight = KO_O;
 layers = (
 {
@@ -27,11 +28,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (307,0.4);
+pos = (307,0);
 ref = ogonekcomb;
 },
 {
-pos = (204.6,205.3);
+pos = (205,205);
 ref = macroncomb;
 }
 );

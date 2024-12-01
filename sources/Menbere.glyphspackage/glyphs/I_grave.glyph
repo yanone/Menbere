@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Igrave;
+kernLeft = KO_I;
 kernRight = KO_I;
 layers = (
 {
@@ -36,7 +37,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-81.8,201.3);
+pos = (-82,201);
 ref = gravecomb;
 }
 );

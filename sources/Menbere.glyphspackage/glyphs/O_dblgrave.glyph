@@ -9,7 +9,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (35,205);
+pos = (45,205);
 ref = dblgravecomb.case;
 }
 );

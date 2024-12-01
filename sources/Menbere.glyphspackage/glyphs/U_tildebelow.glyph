@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Utildebelow;
+kernLeft = KO_U;
 kernRight = KO_U;
 layers = (
 {

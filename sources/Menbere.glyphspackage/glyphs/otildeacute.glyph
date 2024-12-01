@@ -2,6 +2,7 @@
 color = 5;
 glyphname = otildeacute;
 kernLeft = KO_egrave;
+kernRight = KO_o;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

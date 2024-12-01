@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Ymacron;
+kernLeft = KO_Y;
 kernRight = KO_Y;
 layers = (
 {
@@ -23,7 +24,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (89.6,205.3);
+pos = (90,205);
 ref = macroncomb;
 }
 );

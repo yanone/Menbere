@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Rinvertedbreve;
 kernLeft = KO_H;
+kernRight = KO_R;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -23,7 +24,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (104.5,212.3);
+pos = (104,212);
 ref = breveinvertedcomb;
 }
 );

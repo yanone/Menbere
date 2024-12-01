@@ -22,7 +22,7 @@ shapes = (
 ref = AE;
 },
 {
-pos = (269.6,205.3);
+pos = (270,205);
 ref = macroncomb;
 }
 );

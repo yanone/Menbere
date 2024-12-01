@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Idieresisacute;
+kernLeft = KO_I;
 kernRight = KO_I;
 layers = (
 {
@@ -27,11 +28,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-177.5,201.3);
+pos = (-178,201);
 ref = dieresiscomb;
 },
 {
-pos = (101.9,392.7);
+pos = (101,392);
 ref = acutecomb;
 }
 );

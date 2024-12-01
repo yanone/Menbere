@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = Itilde;
+kernLeft = KO_I;
+kernRight = KO_I;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -22,7 +24,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-90.6,212.3);
+pos = (-91,212);
 ref = tildecomb;
 }
 );

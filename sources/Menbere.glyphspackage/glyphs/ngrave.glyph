@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = ngrave;
-kernLeft = KO_n;
+kernLeft = KO_i;
 kernRight = KO_n;
 layers = (
 {

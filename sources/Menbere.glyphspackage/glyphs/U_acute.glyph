@@ -37,7 +37,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (329.3,205.3);
+pos = (329,205);
 ref = acutecomb;
 }
 );

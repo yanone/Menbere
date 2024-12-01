@@ -1,6 +1,5 @@
 {
 glyphname = "qweeGurage-ethiopic";
-kernLeft = "KO_qweeGurage-ethiopic";
 kernRight = "KO_qwiGurage-ethiopic";
 layers = (
 {

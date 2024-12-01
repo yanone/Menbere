@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = ocaron;
+kernLeft = KO_egrave;
 kernRight = KO_o;
 layers = (
 {

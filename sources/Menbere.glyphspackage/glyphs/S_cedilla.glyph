@@ -37,7 +37,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (172.9,0);
+pos = (173,0);
 ref = cedillacomb;
 }
 );

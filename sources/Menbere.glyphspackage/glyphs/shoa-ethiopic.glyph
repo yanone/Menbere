@@ -1,6 +1,6 @@
 {
 glyphname = "shoa-ethiopic";
-kernLeft = "KO_roa-ethiopic";
+kernLeft = "KO_loa-ethiopic";
 kernRight = "KO_sso-ethiopic";
 layers = (
 {

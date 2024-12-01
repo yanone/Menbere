@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Idotbelow;
 kernLeft = KO_I;
+kernRight = KO_I;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -23,7 +24,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (82.1,0);
+pos = (82,0);
 ref = dotbelowcomb;
 }
 );

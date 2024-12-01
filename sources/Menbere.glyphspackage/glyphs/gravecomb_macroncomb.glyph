@@ -21,7 +21,7 @@ shapes = (
 ref = gravecomb;
 },
 {
-pos = (-58.4,343.3);
+pos = (-58,343);
 ref = macroncomb;
 }
 );

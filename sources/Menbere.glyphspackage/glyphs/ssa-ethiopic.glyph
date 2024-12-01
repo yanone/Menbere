@@ -1,6 +1,6 @@
 {
 glyphname = "ssa-ethiopic";
-kernLeft = "KO_roa-ethiopic";
+kernLeft = "KO_loa-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

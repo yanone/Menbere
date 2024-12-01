@@ -2,7 +2,7 @@
 color = 5;
 glyphname = gdotaccent;
 kernLeft = KO_d;
-kernRight = KO_u;
+kernRight = KO_g;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
