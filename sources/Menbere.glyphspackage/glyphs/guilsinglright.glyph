@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = guilsinglright;
-kernLeft = guillemotright;
-kernRight = guillemotright;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,18 +8,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(292,242,l),
-(292,253,l),
-(134,455,l),
-(35,402,l),
-(151,248,l),
-(35,95,l),
-(134,40,l)
+(353.1,322.3,l),
+(353.1,336.6,l),
+(143,606.1,l),
+(11,534.6,l),
+(166.1,330,l),
+(11,126.5,l),
+(143,52.8,l)
 );
 }
 );
-vertWidth = 1156;
-width = 326;
+vertWidth = 1538.9;
+width = 387.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -29,18 +27,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(209,239,l),
-(209,251,l),
-(68,426,l),
-(29,403,l),
-(149,244,l),
-(29,87,l),
-(68,63,l)
+(250.8,317.9,l),
+(250.8,334.4,l),
+(62.7,566.5,l),
+(11,536.8,l),
+(170.5,324.5,l),
+(11,115.5,l),
+(62.7,83.6,l)
 );
 }
 );
-vertWidth = 656;
-width = 238;
+vertWidth = 873.4;
+width = 284.9;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -48,20 +46,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(251,234,l),
-(251,246,l),
-(101,433,l),
-(34,395,l),
-(154,241,l),
-(34,87,l),
-(101,48,l)
+(300.3,311.3,l),
+(300.3,327.8,l),
+(100.1,576.4,l),
+(11,525.8,l),
+(170.5,321.2,l),
+(11,115.5,l),
+(100.1,63.8,l)
 );
 }
 );
-vertWidth = 177;
-width = 285;
+vertWidth = 235.4;
+width = 334.4;
 }
 );
+metricLeft = "=|guilsinglleft";
+metricRight = "=|guilsinglleft";
 note = guilsinglright;
 unicode = 8250;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
 }

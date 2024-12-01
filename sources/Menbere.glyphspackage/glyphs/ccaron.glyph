@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = ccaron;
-kernLeft = agrave;
+kernLeft = KO_egrave;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +10,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (28,0);
+pos = (37.4,0);
 ref = caroncomb;
 }
 );
-width = 448;
+width = 596.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +23,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (76,-13);
+pos = (101.2,-17.6);
 ref = caroncomb;
 }
 );
-width = 410;
+width = 545.6;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +36,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (51,-8);
+pos = (68.2,-11);
 ref = caroncomb;
 }
 );
-width = 423;
+width = 563.2;
 }
 );
 note = ccaron;

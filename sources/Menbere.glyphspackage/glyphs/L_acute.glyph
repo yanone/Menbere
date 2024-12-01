@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = Lacute;
-kernRight = L;
+kernLeft = KO_H;
+kernRight = KO_L;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +11,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (69,152);
+pos = (92.4,201.3);
 ref = acutecomb;
 }
 );
-width = 493;
+width = 656.7;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +24,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (54,152);
+pos = (72.6,201.3);
 ref = acutecomb;
 }
 );
-width = 446;
+width = 594;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +37,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (57,152);
+pos = (75.9,201.3);
 ref = acutecomb;
 }
 );
-width = 464;
+width = 617.1;
 }
 );
 note = Lacute;

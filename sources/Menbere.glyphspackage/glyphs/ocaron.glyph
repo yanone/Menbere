@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = ocaron;
+kernRight = KO_o;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (31,0);
+pos = (40.7,0);
 ref = caroncomb;
 }
 );
-width = 537;
+width = 715;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +23,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (56,0);
+pos = (74.8,0);
 ref = caroncomb;
 }
 );
-width = 526;
+width = 699.6;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +36,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (75,0);
+pos = (100.1,0);
 ref = caroncomb;
 }
 );
-width = 512;
+width = 682;
 }
 );
 unicode = 466;

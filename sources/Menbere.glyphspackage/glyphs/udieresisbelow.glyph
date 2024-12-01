@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = udieresisbelow;
+kernLeft = KO_u;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +10,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (90,0);
+pos = (119.9,0);
 ref = dieresisbelowcomb;
 }
 );
-width = 572;
+width = 761.2;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +23,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (95,0);
+pos = (126.5,0);
 ref = dieresisbelowcomb;
 }
 );
-width = 543;
+width = 722.7;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +36,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (98,0);
+pos = (129.8,0);
 ref = dieresisbelowcomb;
 }
 );
-width = 517;
+width = 688.6;
 }
 );
 unicode = 7795;

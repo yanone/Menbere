@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = gdotaccent;
-kernLeft = g;
+kernLeft = KO_d;
+kernRight = KO_u;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +11,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (144,0);
+pos = (191.4,0);
 ref = dotaccentcomb;
 }
 );
-width = 549;
+width = 730.4;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +24,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (173,-13);
+pos = (229.9,-17.6);
 ref = dotaccentcomb;
 }
 );
-width = 520;
+width = 691.9;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +37,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (166,-8);
+pos = (221.1,-11);
 ref = dotaccentcomb;
 }
 );
-width = 536;
+width = 713.9;
 }
 );
 note = gdotaccent;

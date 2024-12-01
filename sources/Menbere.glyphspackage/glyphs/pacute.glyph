@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = pacute;
+kernLeft = KO_n;
+kernRight = KO_p;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +11,11 @@ shapes = (
 ref = p;
 },
 {
-pos = (193,0);
+pos = (257.4,0);
 ref = acutecomb;
 }
 );
-width = 549;
+width = 730.4;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +24,11 @@ shapes = (
 ref = p;
 },
 {
-pos = (218,-8);
+pos = (290.4,-11);
 ref = acutecomb;
 }
 );
-width = 536;
+width = 713.9;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +37,11 @@ shapes = (
 ref = p;
 },
 {
-pos = (213,-13);
+pos = (283.8,-17.6);
 ref = acutecomb;
 }
 );
-width = 520;
+width = 691.9;
 }
 );
 unicode = 7765;

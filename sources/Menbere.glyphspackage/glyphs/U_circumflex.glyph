@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = Ucircumflex;
-kernLeft = U;
-kernRight = U;
+kernLeft = KO_U;
+kernRight = KO_U;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +11,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (90,155);
+pos = (119.9,205.7);
 ref = circumflexcomb;
 }
 );
-width = 656;
+width = 873.4;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (132,155);
+pos = (176,205.7);
 ref = circumflexcomb;
 }
 );
-width = 625;
+width = 831.6;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (112,155);
+pos = (149.6,205.7);
 ref = circumflexcomb;
 }
 );
-width = 638;
+width = 849.2;
 }
 );
 note = Ucircumflex;

@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = Abreve;
-kernLeft = A;
-kernRight = A;
+kernLeft = KO_A;
+kernRight = KO_A;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +11,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (81,152);
+pos = (107.8,201.3);
 ref = brevecomb;
 }
 );
-width = 600;
+width = 798.6;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (91,152);
+pos = (121,201.3);
 ref = brevecomb;
 }
 );
-width = 528;
+width = 702.9;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (88,152);
+pos = (116.6,201.3);
 ref = brevecomb;
 }
 );
-width = 564;
+width = 750.2;
 }
 );
 note = Abreve;

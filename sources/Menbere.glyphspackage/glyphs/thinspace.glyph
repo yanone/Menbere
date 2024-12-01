@@ -16,4 +16,10 @@ width = 125;
 );
 metricWidth = "=125";
 unicode = 8201;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
 }

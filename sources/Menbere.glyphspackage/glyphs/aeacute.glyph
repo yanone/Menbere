@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = aeacute;
+kernLeft = KO_a;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +10,11 @@ shapes = (
 ref = ae;
 },
 {
-pos = (317,0);
+pos = (422.4,0);
 ref = acutecomb;
 }
 );
-width = 797;
+width = 1060.4;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +23,11 @@ shapes = (
 ref = ae;
 },
 {
-pos = (308,-8);
+pos = (410.3,-11);
 ref = acutecomb;
 }
 );
-width = 760;
+width = 1012;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +36,11 @@ shapes = (
 ref = ae;
 },
 {
-pos = (312,-13);
+pos = (415.8,-17.6);
 ref = acutecomb;
 }
 );
-width = 742;
+width = 987.8;
 }
 );
 unicode = 509;

@@ -1,7 +1,6 @@
 {
 color = 5;
 glyphname = idieresis;
-kernRight = icircumflex;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,12 +10,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-162,0);
+pos = (-215.6,0);
 ref = dieresiscomb;
 }
 );
-vertWidth = 1156;
-width = 266;
+vertWidth = 1538.9;
+width = 354.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -26,12 +25,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-181,-13);
+pos = (-240.9,-17.6);
 ref = dieresiscomb;
 }
 );
-vertWidth = 656;
-width = 202;
+vertWidth = 873.4;
+width = 268.4;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -41,12 +40,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-168,-8);
+pos = (-223.3,-11);
 ref = dieresiscomb;
 }
 );
-vertWidth = 177;
-width = 233;
+vertWidth = 235.4;
+width = 310.2;
 }
 );
 note = idieresis;

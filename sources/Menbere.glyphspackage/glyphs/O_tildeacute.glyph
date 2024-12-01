@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Otildeacute;
+kernLeft = KO_O;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,15 +10,15 @@ shapes = (
 ref = O;
 },
 {
-pos = (112,155);
+pos = (148.5,205.7);
 ref = tildecomb;
 },
 {
-pos = (263,364);
+pos = (349.8,482.9);
 ref = acutecomb;
 }
 );
-width = 690;
+width = 918.5;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -26,15 +27,15 @@ shapes = (
 ref = O;
 },
 {
-pos = (119,163);
+pos = (158.4,216.7);
 ref = tildecomb;
 },
 {
-pos = (267,353);
+pos = (355.3,468.6);
 ref = acutecomb;
 }
 );
-width = 678;
+width = 902;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -43,15 +44,15 @@ shapes = (
 ref = O;
 },
 {
-pos = (126,168);
+pos = (168.3,223.3);
 ref = tildecomb;
 },
 {
-pos = (274,317);
+pos = (365.2,421.3);
 ref = acutecomb;
 }
 );
-width = 665;
+width = 885.5;
 }
 );
 unicode = 7756;

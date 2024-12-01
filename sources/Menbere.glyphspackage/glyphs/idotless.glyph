@@ -1,20 +1,22 @@
 {
 color = 4;
 glyphname = idotless;
+kernLeft = KO_n;
+kernRight = KO_i;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (133,0);
+pos = (177.1,0);
 },
 {
 name = ogonek;
-pos = (199,10);
+pos = (265.1,13.2);
 },
 {
 name = top;
-pos = (133,493);
+pos = (177.1,656.7);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -22,29 +24,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(199,0,l),
-(199,493,l),
-(67,493,l),
-(67,0,l)
+(265.1,0,l),
+(265.1,656.7,l),
+(89.1,656.7,l),
+(89.1,0,l)
 );
 }
 );
-vertWidth = 1156;
-width = 266;
+vertWidth = 1538.9;
+width = 354.2;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (101,0);
+pos = (134.2,0);
 },
 {
 name = ogonek;
-pos = (127,10);
+pos = (169.4,13.2);
 },
 {
 name = top;
-pos = (101,480);
+pos = (134.2,639.1);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -52,29 +54,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(127,0,l),
-(127,480,l),
-(75,480,l),
-(75,0,l)
+(169.4,0,l),
+(169.4,639.1,l),
+(100.1,639.1,l),
+(100.1,0,l)
 );
 }
 );
-vertWidth = 656;
-width = 202;
+vertWidth = 873.4;
+width = 268.4;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (117,0);
+pos = (156.2,0);
 },
 {
 name = ogonek;
-pos = (161,10);
+pos = (214.5,13.2);
 },
 {
 name = top;
-pos = (117,485);
+pos = (156.2,645.7);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -82,15 +84,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(161,0,l),
-(161,485,l),
-(71,485,l),
-(71,0,l)
+(214.5,0,l),
+(214.5,645.7,l),
+(94.6,645.7,l),
+(94.6,0,l)
 );
 }
 );
-vertWidth = 177;
-width = 233;
+vertWidth = 235.4;
+width = 310.2;
 }
 );
 note = dotlessi;

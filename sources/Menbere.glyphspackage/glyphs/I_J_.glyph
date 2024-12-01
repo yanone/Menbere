@@ -1,6 +1,7 @@
 {
 color = 3;
 glyphname = IJ;
+kernLeft = KO_I;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,12 +12,12 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (374,0);
+pos = (498.3,0);
 ref = J;
 }
 );
-vertWidth = 1156;
-width = 630;
+vertWidth = 1538.9;
+width = 838.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -27,12 +28,12 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (305,0);
+pos = (405.9,0);
 ref = J;
 }
 );
-vertWidth = 656;
-width = 491;
+vertWidth = 873.4;
+width = 653.4;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -43,12 +44,12 @@ ref = I;
 },
 {
 alignment = -1;
-pos = (338,0);
+pos = (449.9,0);
 ref = J;
 }
 );
-vertWidth = 177;
-width = 554;
+vertWidth = 235.4;
+width = 737;
 }
 );
 note = IJ;

@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = omacronacute;
+kernLeft = KO_egrave;
+kernRight = KO_o;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,15 +11,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (71,0);
+pos = (93.5,0);
 ref = macroncomb;
 },
 {
-pos = (187,195);
+pos = (248.6,258.5);
 ref = acutecomb;
 }
 );
-width = 537;
+width = 715;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -26,15 +28,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (78,0);
+pos = (103.4,0);
 ref = macroncomb;
 },
 {
-pos = (191,171);
+pos = (254.1,226.6);
 ref = acutecomb;
 }
 );
-width = 526;
+width = 699.6;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -43,15 +45,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (83,0);
+pos = (111.1,0);
 ref = macroncomb;
 },
 {
-pos = (197,148);
+pos = (262.9,196.9);
 ref = acutecomb;
 }
 );
-width = 512;
+width = 682;
 }
 );
 unicode = 7763;

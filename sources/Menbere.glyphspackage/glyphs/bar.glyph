@@ -1,7 +1,5 @@
 {
 glyphname = bar;
-kernLeft = bar;
-kernRight = bar;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,15 +7,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(184,-205,l),
-(184,683,l),
-(90,683,l),
-(90,-205,l)
+(245.3,-272.8,l),
+(245.3,908.6,l),
+(119.9,908.6,l),
+(119.9,-272.8,l)
 );
 }
 );
-vertWidth = 1156;
-width = 274;
+vertWidth = 1538.9;
+width = 365.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -25,15 +23,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(144,-222,l),
-(144,687,l),
-(100,687,l),
-(100,-222,l)
+(191.4,-295.9,l),
+(191.4,914.1,l),
+(133.1,914.1,l),
+(133.1,-295.9,l)
 );
 }
 );
-vertWidth = 656;
-width = 244;
+vertWidth = 873.4;
+width = 324.5;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -41,18 +39,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(160,-215,l),
-(160,686,l),
-(90,686,l),
-(90,-215,l)
+(213.4,-286,l),
+(213.4,913,l),
+(119.9,913,l),
+(119.9,-286,l)
 );
 }
 );
-vertWidth = 177;
-width = 250;
+vertWidth = 235.4;
+width = 333.3;
 }
 );
 metricRight = "=|";
 note = bar;
 unicode = 124;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
 }

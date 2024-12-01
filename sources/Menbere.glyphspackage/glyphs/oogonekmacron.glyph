@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = oogonekmacron;
+kernLeft = KO_egrave;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,15 +10,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (257,-7);
+pos = (342.1,-9.9);
 ref = ogonekcomb;
 },
 {
-pos = (71,0);
+pos = (93.5,0);
 ref = macroncomb;
 }
 );
-width = 537;
+width = 715;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -26,15 +27,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (271,-5);
+pos = (360.8,-6.6);
 ref = ogonekcomb;
 },
 {
-pos = (78,0);
+pos = (103.4,0);
 ref = macroncomb;
 }
 );
-width = 526;
+width = 699.6;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -43,15 +44,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (279,-3);
+pos = (371.8,-4.4);
 ref = ogonekcomb;
 },
 {
-pos = (83,0);
+pos = (111.1,0);
 ref = macroncomb;
 }
 );
-width = 512;
+width = 682;
 }
 );
 unicode = 493;

@@ -6,44 +6,50 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-pos = (0,-89.795);
+pos = (0,-119.9);
 ref = asciitilde;
 },
 {
-pos = (0,93.85);
+pos = (0,125.4);
 ref = asciitilde;
 }
 );
-width = 471;
+width = 627;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-pos = (0,-79.795);
+pos = (0,-106.7);
 ref = asciitilde;
 },
 {
-pos = (0,83.85);
+pos = (0,111.1);
 ref = asciitilde;
 }
 );
-width = 471;
+width = 627;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-pos = (0,-69.795);
+pos = (0,-92.4);
 ref = asciitilde;
 },
 {
-pos = (0,73.85);
+pos = (0,97.9);
 ref = asciitilde;
 }
 );
-width = 495;
+width = 658.9;
 }
 );
 unicode = 8776;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
 }

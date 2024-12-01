@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = udieresis;
-kernLeft = m;
+kernLeft = KO_u;
+kernRight = KO_u;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +11,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-9,0);
+pos = (-12.1,0);
 ref = dieresiscomb;
 }
 );
-width = 572;
+width = 761.2;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +24,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-23,-13);
+pos = (-30.8,-17.6);
 ref = dieresiscomb;
 }
 );
-width = 517;
+width = 688.6;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +37,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-13,-8);
+pos = (-17.6,-11);
 ref = dieresiscomb;
 }
 );
-width = 543;
+width = 722.7;
 }
 );
 note = udieresis;

@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = Tcaron;
-kernLeft = T;
-kernRight = T;
+kernLeft = KO_T;
+kernRight = KO_T;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +11,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (14,152);
+pos = (18.7,201.3);
 ref = caroncomb;
 }
 );
-width = 504;
+width = 671;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (49,152);
+pos = (64.9,201.3);
 ref = caroncomb;
 }
 );
-width = 460;
+width = 612.7;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (36,152);
+pos = (48.4,201.3);
 ref = caroncomb;
 }
 );
-width = 485;
+width = 645.7;
 }
 );
 note = Tcaron;

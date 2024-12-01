@@ -1,8 +1,7 @@
 {
 color = 5;
 glyphname = Zacute;
-kernLeft = Z;
-kernRight = Z;
+kernRight = KO_Z;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +10,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (169,152);
+pos = (225.5,201.3);
 ref = acutecomb;
 }
 );
-width = 502;
+width = 667.7;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +23,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (190,152);
+pos = (253,201.3);
 ref = acutecomb;
 }
 );
-width = 498;
+width = 663.3;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +36,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (177,152);
+pos = (235.4,201.3);
 ref = acutecomb;
 }
 );
-width = 498;
+width = 663.3;
 }
 );
 note = Zacute;

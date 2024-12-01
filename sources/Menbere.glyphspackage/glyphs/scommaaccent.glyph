@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = scommaaccent;
-kernLeft = s;
+kernLeft = KO_s;
+kernRight = KO_s;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -12,12 +13,12 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-6,0);
+pos = (-7.7,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 1156;
-width = 430;
+vertWidth = 1538.9;
+width = 572;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -28,12 +29,12 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-6,0);
+pos = (-7.7,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 656;
-width = 404;
+vertWidth = 873.4;
+width = 537.9;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -44,12 +45,12 @@ ref = s;
 },
 {
 alignment = -1;
-pos = (-3,0);
+pos = (-4.4,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 177;
-width = 417;
+vertWidth = 235.4;
+width = 555.5;
 }
 );
 note = uni0219;
