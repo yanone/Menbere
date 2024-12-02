@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = zmacronbelow;
+kernLeft = KO_z;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +10,11 @@ shapes = (
 ref = z;
 },
 {
-pos = (22,0);
+pos = (19,0);
 ref = macronbelowcomb;
 }
 );
-width = 563;
+width = 497;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +23,11 @@ shapes = (
 ref = z;
 },
 {
-pos = (30,0);
+pos = (27,0);
 ref = macronbelowcomb;
 }
 );
-width = 545;
+width = 481;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +36,11 @@ shapes = (
 ref = z;
 },
 {
-pos = (38,0);
+pos = (34,0);
 ref = macronbelowcomb;
 }
 );
-width = 532;
+width = 469;
 }
 );
 unicode = 7829;

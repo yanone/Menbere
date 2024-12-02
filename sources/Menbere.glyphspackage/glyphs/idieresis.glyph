@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = idieresis;
-kernRight = KO_jacute;
+kernLeft = KO_imacron;
+kernRight = KO_imacron;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,12 +12,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-216,0);
+pos = (-191,0);
 ref = dieresiscomb;
 }
 );
-vertWidth = 1538.9;
-width = 354;
+vertWidth = 1357.3098;
+width = 312;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -26,12 +27,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-241,-18);
+pos = (-213,-17);
 ref = dieresiscomb;
 }
 );
-vertWidth = 873.4;
-width = 268;
+vertWidth = 770.3388;
+width = 237;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -41,12 +42,12 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (-224,-11);
+pos = (-197,-10);
 ref = dieresiscomb;
 }
 );
-vertWidth = 235.4;
-width = 310;
+vertWidth = 207.6228;
+width = 274;
 }
 );
 note = idieresis;

@@ -6,31 +6,31 @@ layers = (
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
 shapes = (
 {
-pos = (-64,0);
+pos = (-54,0);
 ref = bar;
 }
 );
-width = 237;
+width = 214;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
 shapes = (
 {
-pos = (-56,0);
+pos = (-47,0);
 ref = bar;
 }
 );
-width = 221;
+width = 200;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
 shapes = (
 {
-pos = (-56,0);
+pos = (-41,0);
 ref = bar;
 }
 );
-width = 212;
+width = 203;
 }
 );
 metricLeft = "=I+20";

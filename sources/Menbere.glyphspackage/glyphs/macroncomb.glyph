@@ -1,16 +1,15 @@
 {
-color = 6;
 glyphname = macroncomb;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (264,657);
+pos = (233,580);
 },
 {
 name = top;
-pos = (264,915);
+pos = (233,807);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -18,25 +17,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(474,791,l),
-(474,915,l),
-(52,915,l),
-(52,791,l)
+(419,698,l),
+(419,807,l),
+(46,807,l),
+(46,698,l)
 );
 }
 );
-vertWidth = 1538.9;
-width = 526;
+vertWidth = 1357.3098;
+width = 464;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (230,657);
+pos = (203,580);
 },
 {
 name = top;
-pos = (230,854);
+pos = (203,753);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -44,25 +43,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(408,798,l),
-(408,854,l),
-(52,854,l),
-(52,798,l)
+(360,704,l),
+(360,753,l),
+(46,753,l),
+(46,704,l)
 );
 }
 );
-vertWidth = 873.4;
-width = 461;
+vertWidth = 770.3388;
+width = 407;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (246,657);
+pos = (217,580);
 },
 {
 name = top;
-pos = (246,883);
+pos = (217,779);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -70,15 +69,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(441,792,l),
-(441,883,l),
-(52,883,l),
-(52,792,l)
+(389,698,l),
+(389,779,l),
+(46,779,l),
+(46,698,l)
 );
 }
 );
-vertWidth = 235.4;
-width = 493;
+vertWidth = 207.6228;
+width = 435;
 }
 );
 note = macronmod;

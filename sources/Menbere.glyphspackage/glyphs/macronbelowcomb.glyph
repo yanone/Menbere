@@ -1,16 +1,15 @@
 {
-color = 3;
 glyphname = macronbelowcomb;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (261,0);
+pos = (230,0);
 },
 {
 name = bottom;
-pos = (261,-210);
+pos = (230,-185);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -18,24 +17,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(471,-214,l),
-(471,-89,l),
-(50,-89,l),
-(50,-214,l)
+(416,-189,l),
+(416,-78,l),
+(44,-78,l),
+(44,-189,l)
 );
 }
 );
-width = 521;
+width = 460;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (243,0);
+pos = (214,0);
 },
 {
 name = bottom;
-pos = (243,-191);
+pos = (214,-168);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -43,24 +42,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(438,-218,l),
-(438,-126,l),
-(50,-126,l),
-(50,-218,l)
+(386,-193,l),
+(386,-111,l),
+(44,-111,l),
+(44,-193,l)
 );
 }
 );
-width = 488;
+width = 430;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (228,0);
+pos = (201,0);
 },
 {
 name = bottom;
-pos = (228,-170);
+pos = (201,-150);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -68,14 +67,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(406,-180,l),
-(406,-124,l),
-(50,-124,l),
-(50,-180,l)
+(358,-158,l),
+(358,-110,l),
+(44,-110,l),
+(44,-158,l)
 );
 }
 );
-width = 456;
+width = 402;
 }
 );
 metricLeft = hyphen;

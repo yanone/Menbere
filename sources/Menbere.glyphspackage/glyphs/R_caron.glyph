@@ -11,11 +11,11 @@ shapes = (
 ref = R;
 },
 {
-pos = (65,201);
+pos = (57,177);
 ref = caroncomb;
 }
 );
-width = 765;
+width = 675;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = R;
 },
 {
-pos = (107,201);
+pos = (95,177);
 ref = caroncomb;
 }
 );
-width = 693;
+width = 611;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = R;
 },
 {
-pos = (88,201);
+pos = (77,177);
 ref = caroncomb;
 }
 );
-width = 727;
+width = 641;
 }
 );
 note = Rcaron;

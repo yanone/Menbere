@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = utildeacute;
-kernLeft = KO_u;
+kernLeft = KO_udieresis;
 kernRight = KO_u;
 layers = (
 {
@@ -11,15 +11,15 @@ shapes = (
 ref = u;
 },
 {
-pos = (71,0);
+pos = (62,0);
 ref = tildecomb;
 },
 {
-pos = (272,277);
+pos = (240,244);
 ref = acutecomb;
 }
 );
-width = 761;
+width = 671;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -28,15 +28,15 @@ shapes = (
 ref = u;
 },
 {
-pos = (69,0);
+pos = (62,0);
 ref = tildecomb;
 },
 {
-pos = (266,252);
+pos = (235,222);
 ref = acutecomb;
 }
 );
-width = 723;
+width = 638;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -45,15 +45,15 @@ shapes = (
 ref = u;
 },
 {
-pos = (69,0);
+pos = (60,0);
 ref = tildecomb;
 },
 {
-pos = (266,198);
+pos = (235,174);
 ref = acutecomb;
 }
 );
-width = 689;
+width = 608;
 }
 );
 unicode = 7801;

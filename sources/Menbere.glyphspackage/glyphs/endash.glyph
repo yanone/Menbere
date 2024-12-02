@@ -1,5 +1,4 @@
 {
-color = 6;
 glyphname = endash;
 kernLeft = KO_endash;
 kernRight = KO_endash;
@@ -10,15 +9,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(530,268,l),
-(530,378,l),
-(45,378,l),
-(45,268,l)
+(467,237,l),
+(467,333,l),
+(40,333,l),
+(40,237,l)
 );
 }
 );
-vertWidth = 1538.9;
-width = 574;
+vertWidth = 1357.3098;
+width = 507;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -26,15 +25,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(530,290,l),
-(530,358,l),
-(45,358,l),
-(45,290,l)
+(467,256,l),
+(467,316,l),
+(40,316,l),
+(40,256,l)
 );
 }
 );
-vertWidth = 873.4;
-width = 574;
+vertWidth = 770.3388;
+width = 507;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -42,15 +41,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(530,274,l),
-(530,369,l),
-(45,369,l),
-(45,274,l)
+(467,242,l),
+(467,326,l),
+(40,326,l),
+(40,242,l)
 );
 }
 );
-vertWidth = 235.4;
-width = 574;
+vertWidth = 207.6228;
+width = 507;
 }
 );
 note = endash;

@@ -1,7 +1,6 @@
 {
 color = 5;
 glyphname = rcaron;
-kernLeft = KO_i;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +9,11 @@ shapes = (
 ref = r;
 },
 {
-pos = (-53,0);
+pos = (-47,0);
 ref = caroncomb;
 }
 );
-width = 526;
+width = 464;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +22,11 @@ shapes = (
 ref = r;
 },
 {
-pos = (-13,-18);
+pos = (-11,-17);
 ref = caroncomb;
 }
 );
-width = 454;
+width = 401;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +35,11 @@ shapes = (
 ref = r;
 },
 {
-pos = (-32,-11);
+pos = (-29,-10);
 ref = caroncomb;
 }
 );
-width = 486;
+width = 428;
 }
 );
 note = rcaron;

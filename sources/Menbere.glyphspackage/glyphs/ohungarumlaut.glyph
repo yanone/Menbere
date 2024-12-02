@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = ohungarumlaut;
-kernLeft = KO_e;
-kernRight = KO_o;
+kernLeft = KO_egrave;
+kernRight = KO_oacute;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +11,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (106.453,0);
+pos = (94,0);
 ref = hungarumlautcomb;
 }
 );
-width = 715;
+width = 631;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (141.75,18);
+pos = (125,17);
 ref = hungarumlautcomb;
 }
 );
-width = 682;
+width = 601;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (138.352,11);
+pos = (123,10);
 ref = hungarumlautcomb;
 }
 );
-width = 700;
+width = 617;
 }
 );
 note = ohungarumlaut;

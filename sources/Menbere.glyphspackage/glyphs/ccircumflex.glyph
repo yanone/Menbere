@@ -1,7 +1,6 @@
 {
 color = 5;
 glyphname = ccircumflex;
-kernLeft = KO_c;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +9,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (37,0);
+pos = (32,0);
 ref = circumflexcomb;
 }
 );
-width = 596;
+width = 526;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -23,11 +22,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (68,-11);
+pos = (59,-10);
 ref = circumflexcomb;
 }
 );
-width = 563;
+width = 497;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -36,11 +35,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (101,-18);
+pos = (90,-17);
 ref = circumflexcomb;
 }
 );
-width = 546;
+width = 482;
 }
 );
 unicode = 265;

@@ -2,13 +2,13 @@
 color = 5;
 glyphname = fl;
 kernLeft = KO_f;
-kernRight = KO_i;
+kernRight = KO_l;
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-pos = (401,0);
+pos = (335.472,0);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -17,17 +17,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (448,0);
+pos = (410,0);
 ref = l;
 }
 );
-width = 802;
+width = 722;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (358,0);
+pos = (311.59,0);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,17 +36,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (406,0);
+pos = (358,0);
 ref = l;
 }
 );
-width = 716;
+width = 632;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (307.5,0);
+pos = (271,0);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -55,11 +55,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (347,0);
+pos = (316,0);
 ref = l;
 }
 );
-width = 615;
+width = 553;
 }
 );
 metricLeft = f;

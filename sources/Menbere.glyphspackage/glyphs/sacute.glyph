@@ -2,6 +2,7 @@
 color = 5;
 glyphname = sacute;
 kernLeft = KO_s;
+kernRight = KO_scaron;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,11 +11,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (177,0);
+pos = (156,0);
 ref = acutecomb;
 }
 );
-width = 572;
+width = 505;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +24,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (190,-18);
+pos = (169,-17);
 ref = acutecomb;
 }
 );
-width = 538;
+width = 474;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +37,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (182,-11);
+pos = (160,-10);
 ref = acutecomb;
 }
 );
-width = 556;
+width = 491;
 }
 );
 note = sacute;

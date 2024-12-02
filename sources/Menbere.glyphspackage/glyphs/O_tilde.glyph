@@ -11,11 +11,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (149,205);
+pos = (131,181);
 ref = tildecomb;
 }
 );
-width = 919;
+width = 811;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (168,223);
+pos = (148,198);
 ref = tildecomb;
 }
 );
-width = 886;
+width = 781;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (158,216);
+pos = (140,191);
 ref = tildecomb;
 }
 );
-width = 902;
+width = 796;
 }
 );
 note = Otilde;

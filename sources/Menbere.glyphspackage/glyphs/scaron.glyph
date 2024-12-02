@@ -1,8 +1,7 @@
 {
 color = 5;
 glyphname = scaron;
-kernLeft = KO_s;
-kernRight = KO_s;
+kernRight = KO_scaron;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -11,11 +10,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (-31,0);
+pos = (-28,0);
 ref = caroncomb;
 }
 );
-width = 572;
+width = 505;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +23,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (27,-18);
+pos = (25,-17);
 ref = caroncomb;
 }
 );
-width = 538;
+width = 474;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +36,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (3,-11);
+pos = (2,-10);
 ref = caroncomb;
 }
 );
-width = 556;
+width = 491;
 }
 );
 note = scaron;

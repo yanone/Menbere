@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Icaron;
+kernRight = KO_I;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,11 +10,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-90,201);
+pos = (-80,177);
 ref = caroncomb;
 }
 );
-width = 451;
+width = 398;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -22,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-73,201);
+pos = (-65,177);
 ref = caroncomb;
 }
 );
-width = 404;
+width = 356;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -35,11 +36,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-62,201);
+pos = (-48,177);
 ref = caroncomb;
 }
 );
-width = 360;
+width = 330;
 }
 );
 unicode = 463;

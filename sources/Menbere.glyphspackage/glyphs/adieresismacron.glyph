@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = adieresismacron;
-kernRight = KO_a;
+kernRight = KO_aacute;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,15 +10,15 @@ shapes = (
 ref = a;
 },
 {
-pos = (-43,0);
+pos = (-38,0);
 ref = dieresiscomb;
 },
 {
-pos = (86,197);
+pos = (76,173);
 ref = macroncomb;
 }
 );
-width = 699;
+width = 617;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -27,15 +27,15 @@ shapes = (
 ref = a;
 },
 {
-pos = (-50,0);
+pos = (-44,0);
 ref = dieresiscomb;
 },
 {
-pos = (79,191);
+pos = (70,168);
 ref = macroncomb;
 }
 );
-width = 659;
+width = 581;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -44,15 +44,15 @@ shapes = (
 ref = a;
 },
 {
-pos = (-66,0);
+pos = (-58,0);
 ref = dieresiscomb;
 },
 {
-pos = (79,178);
+pos = (70,156);
 ref = macroncomb;
 }
 );
-width = 617;
+width = 545;
 }
 );
 unicode = 479;

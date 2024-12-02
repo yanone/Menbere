@@ -10,11 +10,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (319,0);
+pos = (282,0);
 ref = ogonekcomb;
 }
 );
-width = 684;
+width = 603;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -23,11 +23,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (352,0);
+pos = (311,0);
 ref = ogonekcomb;
 }
 );
-width = 638;
+width = 563;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,11 +36,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (344,0);
+pos = (303,0);
 ref = ogonekcomb;
 }
 );
-width = 659;
+width = 581;
 }
 );
 note = eogonek;

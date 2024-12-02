@@ -1,77 +1,9 @@
 {
 color = 4;
 glyphname = l;
-kernLeft = KO_i;
-kernRight = KO_i;
+kernLeft = KO_l;
+kernRight = KO_l;
 layers = (
-{
-anchors = (
-{
-name = bottom;
-pos = (177,0);
-},
-{
-name = center;
-pos = (177,457);
-},
-{
-name = top;
-pos = (177,914);
-},
-{
-name = topright;
-pos = (328,914);
-}
-);
-layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
-shapes = (
-{
-closed = 1;
-nodes = (
-(265,0,l),
-(265,913,l),
-(89,913,l),
-(89,0,l)
-);
-}
-);
-vertWidth = 1538.9;
-width = 354;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (134,0);
-},
-{
-name = center;
-pos = (135,457);
-},
-{
-name = top;
-pos = (135,914);
-},
-{
-name = topright;
-pos = (286,914);
-}
-);
-layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
-shapes = (
-{
-closed = 1;
-nodes = (
-(169,0,l),
-(169,913,l),
-(101,913,l),
-(101,0,l)
-);
-}
-);
-vertWidth = 873.4;
-width = 268;
-},
 {
 anchors = (
 {
@@ -80,15 +12,83 @@ pos = (156,0);
 },
 {
 name = center;
-pos = (156,457);
+pos = (156,403);
 },
 {
 name = top;
-pos = (156,914);
+pos = (156,806);
 },
 {
 name = topright;
-pos = (306,914);
+pos = (289,806);
+}
+);
+layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,0,l),
+(234,806,l),
+(78,806,l),
+(78,0,l)
+);
+}
+);
+vertWidth = 1357.3098;
+width = 312;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (118,0);
+},
+{
+name = center;
+pos = (119,403);
+},
+{
+name = top;
+pos = (119,806);
+},
+{
+name = topright;
+pos = (252,806);
+}
+);
+layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,0,l),
+(149,806,l),
+(89,806,l),
+(89,0,l)
+);
+}
+);
+vertWidth = 770.3388;
+width = 237;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (138,0);
+},
+{
+name = center;
+pos = (138,403);
+},
+{
+name = top;
+pos = (138,806);
+},
+{
+name = topright;
+pos = (270,806);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -96,15 +96,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(215,0,l),
-(215,913,l),
-(96,913,l),
-(96,0,l)
+(190,0,l),
+(190,806,l),
+(85,806,l),
+(85,0,l)
 );
 }
 );
-vertWidth = 235.4;
-width = 310;
+vertWidth = 207.6228;
+width = 274;
 }
 );
 note = l;

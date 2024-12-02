@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = minus;
 layers = (
 {
@@ -10,8 +9,8 @@ alignment = -1;
 ref = hyphen;
 }
 );
-vertWidth = 1538.9;
-width = 504;
+vertWidth = 1357.3098;
+width = 445;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -21,8 +20,8 @@ alignment = -1;
 ref = hyphen;
 }
 );
-vertWidth = 873.4;
-width = 491;
+vertWidth = 770.3388;
+width = 433;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -32,8 +31,8 @@ alignment = -1;
 ref = hyphen;
 }
 );
-vertWidth = 235.4;
-width = 491;
+vertWidth = 207.6228;
+width = 433;
 }
 );
 metricRight = "=|";

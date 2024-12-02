@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = ocircumflexdotbelow;
-kernLeft = KO_egrave;
+kernLeft = KO_otilde;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -10,15 +10,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (212,0);
+pos = (187,0);
 ref = dotbelowcomb;
 },
 {
-pos = (41,0);
+pos = (36,0);
 ref = circumflexcomb;
 }
 );
-width = 715;
+width = 631;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -27,15 +27,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (230,0);
+pos = (203,0);
 ref = dotbelowcomb;
 },
 {
-pos = (75,0);
+pos = (66,0);
 ref = circumflexcomb;
 }
 );
-width = 700;
+width = 617;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -44,15 +44,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (244,0);
+pos = (215,0);
 ref = dotbelowcomb;
 },
 {
-pos = (100,0);
+pos = (89,0);
 ref = circumflexcomb;
 }
 );
-width = 682;
+width = 601;
 }
 );
 unicode = 7897;

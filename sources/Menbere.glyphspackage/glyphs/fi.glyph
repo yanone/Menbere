@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = caret_1;
-pos = (401,0);
+pos = (336.472,0);
 }
 );
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -17,17 +17,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (448,0);
+pos = (409,0);
 ref = i;
 }
 );
-width = 802;
+width = 721;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (358,0);
+pos = (311.59,0);
 }
 );
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -36,17 +36,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (406,0);
+pos = (358,0);
 ref = i;
 }
 );
-width = 716;
+width = 632;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (307.5,0);
+pos = (271,0);
 }
 );
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -55,11 +55,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (347,0);
+pos = (316,0);
 ref = i;
 }
 );
-width = 615;
+width = 553;
 }
 );
 metricLeft = f;

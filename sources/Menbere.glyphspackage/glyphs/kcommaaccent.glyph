@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = kcommaaccent;
-kernLeft = KO_i;
+kernLeft = KO_l;
 kernRight = KO_k;
 layers = (
 {
@@ -13,12 +13,12 @@ ref = k;
 },
 {
 alignment = -1;
-pos = (67,0);
+pos = (59,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 1538.9;
-width = 723;
+vertWidth = 1357.3098;
+width = 638;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -29,12 +29,12 @@ ref = k;
 },
 {
 alignment = -1;
-pos = (8,0);
+pos = (7,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 873.4;
-width = 572;
+vertWidth = 770.3388;
+width = 505;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -45,12 +45,12 @@ ref = k;
 },
 {
 alignment = -1;
-pos = (36,0);
+pos = (32,0);
 ref = commaaccentcomb;
 }
 );
-vertWidth = 235.4;
-width = 641;
+vertWidth = 207.6228;
+width = 565;
 }
 );
 note = uni0137;

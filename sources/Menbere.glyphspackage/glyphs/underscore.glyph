@@ -1,7 +1,5 @@
 {
-color = 6;
 glyphname = underscore;
-kernLeft = KO_underscore;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -9,15 +7,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(469,-190,l),
-(469,-108,l),
-(-2,-108,l),
-(-2,-190,l)
+(414,-167,l),
+(414,-95,l),
+(-2,-95,l),
+(-2,-167,l)
 );
 }
 );
-vertWidth = 1538.9;
-width = 464;
+vertWidth = 1357.3098;
+width = 410;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -25,15 +23,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(487,-166,l),
-(487,-108,l),
-(-2,-108,l),
-(-2,-166,l)
+(429,-147,l),
+(429,-95,l),
+(-2,-95,l),
+(-2,-147,l)
 );
 }
 );
-vertWidth = 873.4;
-width = 483;
+vertWidth = 770.3388;
+width = 426;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -41,15 +39,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(501,-186,l),
-(501,-108,l),
-(-2,-108,l),
-(-2,-186,l)
+(442,-164,l),
+(442,-95,l),
+(-2,-95,l),
+(-2,-164,l)
 );
 }
 );
-vertWidth = 235.4;
-width = 496;
+vertWidth = 207.6228;
+width = 437;
 }
 );
 note = underscore;

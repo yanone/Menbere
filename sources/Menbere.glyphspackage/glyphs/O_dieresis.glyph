@@ -11,11 +11,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (66,205);
+pos = (58,181);
 ref = dieresiscomb;
 }
 );
-width = 919;
+width = 811;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -24,11 +24,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (68,205);
+pos = (60,181);
 ref = dieresiscomb;
 }
 );
-width = 886;
+width = 781;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -37,11 +37,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (71,205);
+pos = (63,181);
 ref = dieresiscomb;
 }
 );
-width = 902;
+width = 796;
 }
 );
 note = Odieresis;
