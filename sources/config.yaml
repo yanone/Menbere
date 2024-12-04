@@ -26,8 +26,8 @@ familyName: "Menbere"
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
 
-buildVariable: false
-# buildStatic: true
+buildVariable: true
+buildStatic: true
 # buildTTF: true
 buildOTF: false
 # buildSmallCap: false
