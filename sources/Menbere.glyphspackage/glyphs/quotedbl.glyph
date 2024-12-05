@@ -1,6 +1,6 @@
 {
 glyphname = quotedbl;
-kernLeft = KO_quotedbl;
+kernLeft = KO_quotesingle;
 kernRight = KO_quotedbl;
 layers = (
 {
@@ -82,6 +82,7 @@ width = 436;
 note = quotedbl;
 unicode = 34;
 userData = {
+KernOnName = quotedbl;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

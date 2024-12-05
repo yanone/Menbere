@@ -104,6 +104,7 @@ width = 279;
 note = exclam;
 unicode = 33;
 userData = {
+KernOnName = exclam;
 KernOnSpecialSpacing = {
 L = "spaced-off";
 };

@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = adotaccent;
+kernLeft = KO_a;
 kernRight = KO_a;
 layers = (
 {

@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = ocircumflex;
-kernLeft = KO_otilde;
+kernLeft = KO_egrave;
 kernRight = KO_oacute;
 layers = (
 {

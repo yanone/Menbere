@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = Gdotaccent;
-kernLeft = KO_G;
+kernLeft = KO_C;
 kernRight = KO_G;
 layers = (
 {

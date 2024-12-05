@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = kacute;
+kernLeft = KO_h;
 kernRight = KO_k;
 layers = (
 {

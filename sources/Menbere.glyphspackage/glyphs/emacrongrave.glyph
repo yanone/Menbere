@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = emacrongrave;
-kernLeft = KO_otilde;
-kernRight = KO_e;
+kernLeft = KO_e;
+kernRight = KO_eacute;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

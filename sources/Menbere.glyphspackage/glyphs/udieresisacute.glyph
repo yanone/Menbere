@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = udieresisacute;
-kernLeft = KO_u;
+kernLeft = KO_udieresis;
 kernRight = KO_u;
 layers = (
 {

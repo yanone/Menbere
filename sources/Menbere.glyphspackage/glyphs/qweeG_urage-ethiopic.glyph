@@ -2,7 +2,7 @@
 color = 1;
 glyphname = "qweeGurage-ethiopic";
 kernLeft = "KO_qweeGurage-ethiopic";
-kernRight = "KO_qwiGurage-ethiopic";
+kernRight = "KO_mwe-ethiopic";
 layers = (
 {
 background = {

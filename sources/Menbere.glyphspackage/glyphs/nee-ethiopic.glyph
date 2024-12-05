@@ -2,7 +2,7 @@
 color = 1;
 glyphname = "nee-ethiopic";
 kernLeft = "KO_ni-ethiopic";
-kernRight = "KO_cha-ethiopic";
+kernRight = "KO_nee-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

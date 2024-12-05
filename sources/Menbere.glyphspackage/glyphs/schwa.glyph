@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = schwa;
+kernLeft = KO_schwa;
 kernRight = KO_schwa;
 layers = (
 {

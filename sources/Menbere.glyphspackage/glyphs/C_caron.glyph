@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = Ccaron;
-kernLeft = KO_O;
+kernLeft = KO_C;
 kernRight = KO_C;
 layers = (
 {

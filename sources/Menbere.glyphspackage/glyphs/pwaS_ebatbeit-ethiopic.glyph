@@ -1,7 +1,7 @@
 {
 color = 1;
 glyphname = "pwaSebatbeit-ethiopic";
-kernLeft = "KO_pa-ethiopic";
+kernLeft = "KO_pwi-ethiopic";
 kernRight = "KO_gwa-ethiopic";
 layers = (
 {

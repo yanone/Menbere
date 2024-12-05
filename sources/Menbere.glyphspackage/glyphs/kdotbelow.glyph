@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = kdotbelow;
-kernLeft = KO_l;
+kernLeft = KO_h;
+kernRight = KO_k;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

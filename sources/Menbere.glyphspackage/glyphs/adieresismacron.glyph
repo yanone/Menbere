@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = adieresismacron;
+kernLeft = KO_a;
 kernRight = KO_aacute;
 layers = (
 {

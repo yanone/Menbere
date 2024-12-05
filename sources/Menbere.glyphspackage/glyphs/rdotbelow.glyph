@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = rdotbelow;
-kernLeft = KO_n;
+kernLeft = KO_r;
 kernRight = KO_r;
 layers = (
 {
