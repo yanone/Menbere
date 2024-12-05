@@ -211,11 +211,7 @@ fontbakery version: 0.12.10
 <tbody>
 <tr>
 <td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Shaper didn't attach gravecomb to uni1EB9</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
+<td align="left">Shaper didn't attach acutecomb to uni1EB9</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -223,7 +219,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1EB9</td>
+<td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -231,7 +231,7 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
+<td align="left">Shaper didn't attach gravecomb to uni1EB9</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -243,11 +243,11 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
+<td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
+<td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
 </tr>
 </tbody>
 </table>
@@ -308,27 +308,15 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
+<pre><code>- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
 
 - Contour 0 start point differs in glyph 'multiply' between location wght=100 and location wght=700
 
-- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour order differs in glyph 'quotedbl': [0, 1] in wght=400, [1, 0] in wght=100.
-
-- Contour order differs in glyph 'quotedbl': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
-
-- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
+- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
 
 - Contour order differs in glyph 'colon': [0, 1] in wght=400, [1, 0] in wght=100.
 
 - Contour order differs in glyph 'colon': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
 
 - Contour 2 start point differs in glyph 'uni1345' between location wght=400 and location wght=100
 
@@ -338,7 +326,19 @@ fontbakery version: 0.12.10
 
 - Contour 2 in glyph 'uni1345': becomes underweight between wght=100 and wght=700.
 
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
+
+- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
+
+- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
+
 - Contour 0 in glyph 'uni1210': becomes underweight between wght=100 and wght=700.
+
+- Contour order differs in glyph 'quotedbl': [0, 1] in wght=400, [1, 0] in wght=100.
+
+- Contour order differs in glyph 'quotedbl': [0, 1] in wght=100, [1, 0] in wght=700.
 </code></pre>
  [code: interpolation-issues]
 
@@ -439,24 +439,24 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, hebrew, old-permic, duployan, todhri, tai-le, syriac, malayalam, canadian-aboriginal, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, tai-le, math, syriac, todhri, hebrew, tifinagh, duployan, old-permic, coptic, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, sunuwar, cherokee, caucasian-albanian, gothic, syriac</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, gothic, caucasian-albanian, tifinagh, thai, sunuwar</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -486,7 +486,7 @@ definitions.</p>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -514,21 +514,21 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: manichaean, javanese, myanmar, lepcha, tagalog, pahawh-hmong, elbasan, newa, kannada, brahmi, bassa-vah, khudawadi, syloti-nagri, modi, bhaiksuki, gunjala-gondi, caucasian-albanian, phags-pa, sundanese, sharada, old-permic, cham, limbu, psalter-pahlavi, syriac, tai-viet, balinese, osage, chakma, buhid, buginese, telugu, meetei-mayek, yi, tibetan, gurmukhi, tirhuta, sogdian, takri, zanabazar-square, lao, nko, adlam, armenian, masaram-gondi, coptic, thai, mende-kikakui, khojki, sinhala, wancho, tagbanwa, tai-tham, grantha, oriya, hanifi-rohingya, duployan, kaithi, music, canadian-aboriginal, bengali, hanunoo, mongolian, dogra, thaana, mandaic, math, tifinagh, warang-citi, khmer, new-tai-lue, marchen, saurashtra, kharoshthi, hebrew, ahom, tai-le, malayalam, symbols, rejang, devanagari, gujarati, batak, soyombo, kayah-li, tamil, mahajani, siddham, miao</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: meetei-mayek, elbasan, tagalog, math, devanagari, rejang, gunjala-gondi, soyombo, nko, tai-viet, newa, oriya, psalter-pahlavi, dogra, kharoshthi, zanabazar-square, manichaean, tamil, coptic, warang-citi, canadian-aboriginal, modi, marchen, balinese, tibetan, khudawadi, sogdian, javanese, tagbanwa, wancho, masaram-gondi, sinhala, malayalam, sharada, limbu, saurashtra, mahajani, mandaic, new-tai-lue, mende-kikakui, takri, khojki, lao, kaithi, lepcha, bengali, phags-pa, tai-le, gurmukhi, old-permic, gujarati, yi, syriac, syloti-nagri, caucasian-albanian, buhid, symbols, tai-tham, music, ahom, hanunoo, bhaiksuki, thaana, tifinagh, myanmar, thai, kayah-li, batak, telugu, hanifi-rohingya, grantha, bassa-vah, cham, osage, mongolian, kannada, tirhuta, hebrew, adlam, siddham, brahmi, miao, buginese, duployan, chakma, sundanese, armenian, pahawh-hmong, khmer</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -553,7 +553,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̊ ḭ̋ ḭ̌ ḭ̏ ḭ̑ ḭ̒ į̆ į̇ į̈ į̊ į̋ į̏</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bafut (Latn, 158,146 speakers), Ma’di (Latn, 584,000 speakers), South Central Banda (Latn, 244,000 speakers), Heiltsuk (Latn, 300 speakers), Nateni (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Cicipu (Latn, 44,000 speakers), Ebira (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Igbo (Latn, 27,823,640 speakers), Ngbaka (Latn, 1,020,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Navajo (Latn, 166,319 speakers), Han (Latn, 6 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ekpeye (Latn, 226,000 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Zapotec (Latn, 490,000 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Avokaya (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Dan (Latn, 1,099,244 speakers), Dii (Latn, 71,000 speakers), Nzakara (Latn, 50,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Heiltsuk (Latn, 300 speakers), Kom (Latn, 360,685 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Sar (Latn, 500,000 speakers), Ebira (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ngbaka (Latn, 1,020,000 speakers), Gulay (Latn, 250,478 speakers), Bafut (Latn, 158,146 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Yala (Latn, 200,000 speakers), Zapotec (Latn, 490,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Han (Latn, 6 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Kaska (Latn, 125 speakers), Makaa (Latn, 221,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), South Central Banda (Latn, 244,000 speakers), Mfumte (Latn, 79,000 speakers), Nzakara (Latn, 50,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Mundani (Latn, 34,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -571,7 +571,7 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>Font file is 1.0Mb; ideally it should be less than 1.0Mb</p>
+* ⚠️ **WARN** <p>Font file is 1.1Mb; ideally it should be less than 1.0Mb</p>
  [code: large-font]
 
 
