@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = jdotless;
-kernLeft = KO_j;
 layers = (
 {
 anchors = (

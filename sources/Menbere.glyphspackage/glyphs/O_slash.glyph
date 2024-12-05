@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = Oslash;
-kernRight = KO_O;
 layers = (
 {
 anchors = (

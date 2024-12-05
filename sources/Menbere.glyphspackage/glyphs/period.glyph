@@ -1,7 +1,5 @@
 {
 glyphname = period;
-kernLeft = KO_period;
-kernRight = KO_period;
 layers = (
 {
 anchors = (

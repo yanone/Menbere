@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "wu-ethiopic";
-kernLeft = "KO_we-ethiopic";
-kernRight = "KO_wu-ethiopic";
 layers = (
 {
 guides = (

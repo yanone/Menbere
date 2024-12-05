@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "qweGurage-ethiopic";
-kernLeft = "KO_qweGurage-ethiopic";
-kernRight = "KO_qweGurage-ethiopic";
 layers = (
 {
 guides = (

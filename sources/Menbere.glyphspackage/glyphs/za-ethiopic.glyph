@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "za-ethiopic";
-kernLeft = "KO_za-ethiopic";
-kernRight = "KO_za-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -77,7 +75,7 @@ nodes = (
 );
 }
 );
-width = 737;
+width = 740;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
@@ -152,7 +150,7 @@ nodes = (
 );
 }
 );
-width = 692;
+width = 701;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -227,7 +225,7 @@ nodes = (
 );
 }
 );
-width = 653;
+width = 658;
 }
 );
 unicode = 4824;

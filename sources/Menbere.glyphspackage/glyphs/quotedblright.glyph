@@ -1,7 +1,5 @@
 {
 glyphname = quotedblright;
-kernLeft = KO_quotedblright;
-kernRight = KO_quoteright;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "period-ethiopic";
-kernLeft = "KO_period-ethiopic";
-kernRight = "KO_period-ethiopic";
 layers = (
 {
 background = {

@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = khook;
-kernLeft = KO_iacute;
-kernRight = KO_k;
 layers = (
 {
 anchors = (

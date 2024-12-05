@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = Eturned;
-kernRight = KO_H;
 layers = (
 {
 anchors = (

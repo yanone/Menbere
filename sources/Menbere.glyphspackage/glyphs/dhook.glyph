@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = dhook;
-kernLeft = KO_d;
 layers = (
 {
 anchors = (

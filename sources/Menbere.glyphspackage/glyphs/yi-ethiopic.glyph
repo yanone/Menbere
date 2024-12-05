@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "yi-ethiopic";
-kernLeft = "KO_ya-ethiopic";
-kernRight = "KO_yi-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

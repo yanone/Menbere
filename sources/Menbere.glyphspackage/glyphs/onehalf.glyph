@@ -42,15 +42,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (524,0);
+pos = (536,0);
 ref = fraction;
 },
 {
-pos = (662,0);
+pos = (709,0);
 ref = two.dnom;
 }
 );
-width = 1256;
+width = 1303;
 }
 );
 unicode = 189;

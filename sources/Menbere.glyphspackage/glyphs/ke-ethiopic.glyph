@@ -1,8 +1,6 @@
 {
 color = 3;
 glyphname = "ke-ethiopic";
-kernLeft = "KO_ke-ethiopic";
-kernRight = "KO_ke-ethiopic";
 layers = (
 {
 background = {
@@ -371,8 +369,8 @@ nodes = (
 (270.227,371.445,o),
 (276,391,o),
 (256,391,cs),
-(159,391,l),
-(183,554,o),
+(169,391,l),
+(204,522.168,o),
 (284,609,o),
 (395,609,cs),
 (508,609,o),

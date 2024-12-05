@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "yo-ethiopic";
-kernLeft = "KO_yo-ethiopic";
-kernRight = "KO_yo-ethiopic";
 layers = (
 {
 background = {
@@ -289,4 +287,7 @@ width = 782;
 }
 );
 unicode = 4846;
+userData = {
+KernOnName = "yo-ethiopic";
+};
 }

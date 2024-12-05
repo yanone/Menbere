@@ -8,15 +8,15 @@ shapes = (
 ref = two.numr;
 },
 {
-pos = (544,0);
+pos = (572,0);
 ref = fraction;
 },
 {
-pos = (745,0);
+pos = (813,0);
 ref = three.dnom;
 }
 );
-width = 1324;
+width = 1392;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";

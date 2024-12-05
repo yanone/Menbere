@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = kgreenlandic;
-kernLeft = KO_n;
-kernRight = KO_k;
 layers = (
 {
 anchors = (

@@ -1,7 +1,5 @@
 {
 glyphname = hyphen;
-kernLeft = KO_hyphen;
-kernRight = KO_hyphen;
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";

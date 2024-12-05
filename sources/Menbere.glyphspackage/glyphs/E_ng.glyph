@@ -1,7 +1,6 @@
 {
 color = 4;
 glyphname = Eng;
-kernLeft = KO_H;
 layers = (
 {
 anchors = (

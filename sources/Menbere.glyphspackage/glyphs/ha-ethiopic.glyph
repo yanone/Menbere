@@ -1,8 +1,6 @@
 {
 color = 1;
 glyphname = "ha-ethiopic";
-kernLeft = "KO_hu-ethiopic";
-kernRight = "KO_he-ethiopic";
 layers = (
 {
 layerId = "9E010061-AAF6-435A-AC72-EA6F5DDC7760";
@@ -110,9 +108,9 @@ nodes = (
 (523,103,o),
 (348,103,cs),
 (230,103,o),
-(168,168,o),
-(168,298,cs),
-(168,411,o),
+(164,168,o),
+(164,298,cs),
+(164,411,o),
 (220,513,o),
 (220,624,cs),
 (220,669,o),
