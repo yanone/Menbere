@@ -33,11 +33,11 @@ fontbakery version: 0.12.10
 <tbody>
 <tr>
 <td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to uni0237</td>
+<td align="left">Shaper didn't attach acutecomb to J</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
+<td align="left">Shaper didn't attach acutecomb to uni0237</td>
 </tr>
 </tbody>
 </table>
@@ -211,11 +211,35 @@ fontbakery version: 0.12.10
 <tbody>
 <tr>
 <td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
+<td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to M</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni1EB8</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni1EB9</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni1ECD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -224,30 +248,6 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1EB9</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1EB9</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1EB8</td>
 </tr>
 </tbody>
 </table>
@@ -308,27 +308,23 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 in glyph 'uni1210': becomes underweight between wght=100 and wght=700.
-
-- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour order differs in glyph 'colon': [0, 1] in wght=400, [1, 0] in wght=100.
+<pre><code>- Contour order differs in glyph 'colon': [0, 1] in wght=400, [1, 0] in wght=100.
 
 - Contour order differs in glyph 'colon': [0, 1] in wght=100, [1, 0] in wght=700.
 
-- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
+- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
 
-- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
-
-- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
-
-- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
+- Contour 0 in glyph 'uni1210': becomes underweight between wght=100 and wght=700.
 
 - Contour order differs in glyph 'quotedbl': [0, 1] in wght=400, [1, 0] in wght=100.
 
 - Contour order differs in glyph 'quotedbl': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour 0 start point differs in glyph 'multiply' between location wght=100 and location wght=700
+
+- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
 
 - Contour 2 start point differs in glyph 'uni1345' between location wght=400 and location wght=100
 
@@ -338,7 +334,11 @@ fontbakery version: 0.12.10
 
 - Contour 2 in glyph 'uni1345': becomes underweight between wght=100 and wght=700.
 
-- Contour 0 start point differs in glyph 'multiply' between location wght=100 and location wght=700
+- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
+
+- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
+
+- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
 </code></pre>
  [code: interpolation-issues]
 
@@ -386,6 +386,8 @@ minus</p>
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- overscorecomb
+
+- space_sm5
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -431,24 +433,24 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, syriac, duployan, math, tai-le, tifinagh, todhri, malayalam, hebrew, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, math, tifinagh, hebrew, malayalam, coptic, syriac, old-permic, canadian-aboriginal, todhri, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, thai, caucasian-albanian, sunuwar, cherokee, gothic</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, gothic, sunuwar, syriac, thai, caucasian-albanian</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -520,7 +522,7 @@ definitions.</p>
 <li>U+222B INTEGRAL: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, buginese, old-permic, khmer, masaram-gondi, limbu, soyombo, wancho, ahom, marchen, warang-citi, tibetan, thaana, cham, elbasan, batak, malayalam, tagalog, yi, miao, takri, telugu, zanabazar-square, saurashtra, manichaean, hanunoo, mende-kikakui, rejang, oriya, buhid, pahawh-hmong, sinhala, mahajani, hebrew, tamil, hanifi-rohingya, tifinagh, tirhuta, modi, gujarati, bengali, kayah-li, tagbanwa, tai-tham, phags-pa, bassa-vah, duployan, mongolian, siddham, sogdian, adlam, music, chakma, khudawadi, syriac, lao, kaithi, khojki, psalter-pahlavi, brahmi, grantha, mandaic, canadian-aboriginal, javanese, meetei-mayek, tai-le, nko, symbols, newa, caucasian-albanian, bhaiksuki, armenian, devanagari, kharoshthi, tai-viet, balinese, gunjala-gondi, dogra, coptic, lepcha, syloti-nagri, gurmukhi, kannada, math, sharada, thai, osage, myanmar, sundanese</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanunoo, khudawadi, malayalam, pahawh-hmong, syriac, kaithi, lao, khojki, hanifi-rohingya, syloti-nagri, tai-le, armenian, telugu, buhid, takri, mende-kikakui, adlam, sharada, tai-viet, caucasian-albanian, newa, cham, kannada, warang-citi, bassa-vah, coptic, limbu, nko, new-tai-lue, khmer, math, hebrew, kharoshthi, meetei-mayek, balinese, canadian-aboriginal, sundanese, osage, bhaiksuki, old-permic, masaram-gondi, phags-pa, tai-tham, gurmukhi, myanmar, rejang, oriya, mongolian, tagbanwa, brahmi, lepcha, mahajani, symbols, bengali, grantha, kayah-li, ahom, gunjala-gondi, thai, buginese, javanese, tifinagh, chakma, tibetan, batak, modi, manichaean, dogra, gujarati, miao, music, devanagari, mandaic, tagalog, duployan, soyombo, tamil, saurashtra, psalter-pahlavi, elbasan, siddham, yi, wancho, sogdian, tirhuta, sinhala, marchen, thaana, zanabazar-square</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
