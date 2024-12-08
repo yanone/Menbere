@@ -32,7 +32,7 @@ nodes = (
 }
 );
 vertWidth = 1357.3098;
-width = 585;
+width = 582;
 },
 {
 anchors = (
@@ -64,7 +64,7 @@ nodes = (
 }
 );
 vertWidth = 770.3388;
-width = 477;
+width = 479;
 },
 {
 anchors = (
@@ -96,7 +96,7 @@ nodes = (
 }
 );
 vertWidth = 207.6228;
-width = 530;
+width = 531;
 }
 );
 note = v;

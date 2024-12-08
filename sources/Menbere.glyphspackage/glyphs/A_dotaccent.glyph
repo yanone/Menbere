@@ -39,7 +39,7 @@ pos = (222,0);
 ref = dotaccentcomb.case;
 }
 );
-width = 620;
+width = 617;
 }
 );
 unicode = 550;

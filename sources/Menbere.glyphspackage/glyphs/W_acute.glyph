@@ -22,7 +22,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (390,181);
+pos = (389,181);
 ref = acutecomb;
 }
 );
@@ -35,11 +35,11 @@ shapes = (
 ref = W;
 },
 {
-pos = (391,181);
+pos = (403,181);
 ref = acutecomb;
 }
 );
-width = 951;
+width = 975;
 }
 );
 note = Wacute;

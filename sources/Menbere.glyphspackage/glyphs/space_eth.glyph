@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = space_eth;
 layers = (
 {
@@ -7,11 +8,11 @@ width = 290;
 },
 {
 layerId = "C85E24C5-F5D5-436B-96A2-CB17661C75AE";
-width = 274;
+width = 290;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
-width = 274;
+width = 290;
 }
 );
 userData = {

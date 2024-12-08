@@ -22,7 +22,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (127,181);
+pos = (126,181);
 ref = dieresiscomb;
 }
 );
@@ -35,11 +35,11 @@ shapes = (
 ref = W;
 },
 {
-pos = (141,181);
+pos = (153,181);
 ref = dieresiscomb;
 }
 );
-width = 951;
+width = 975;
 }
 );
 note = Wdieresis;

@@ -22,7 +22,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (225,181);
+pos = (224,181);
 ref = gravecomb;
 }
 );
@@ -35,11 +35,11 @@ shapes = (
 ref = W;
 },
 {
-pos = (226,181);
+pos = (238,181);
 ref = gravecomb;
 }
 );
-width = 951;
+width = 975;
 }
 );
 note = Wgrave;
