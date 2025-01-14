@@ -25,7 +25,7 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (563,0);
+pos = (564,0);
 ref = fraction;
 },
 {
@@ -46,11 +46,11 @@ pos = (528,0);
 ref = fraction;
 },
 {
-pos = (677,0);
+pos = (676,0);
 ref = three.dnom;
 }
 );
-width = 1263;
+width = 1262;
 }
 );
 metricLeft = one.numr;

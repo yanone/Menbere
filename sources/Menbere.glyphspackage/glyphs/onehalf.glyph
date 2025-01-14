@@ -25,15 +25,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (563,0);
+pos = (564,0);
 ref = fraction;
 },
 {
-pos = (742,0);
+pos = (743,0);
 ref = two.dnom;
 }
 );
-width = 1305;
+width = 1306;
 },
 {
 layerId = "953CDB83-177D-4B72-9B41-8425D0D02E2F";
@@ -46,11 +46,11 @@ pos = (528,0);
 ref = fraction;
 },
 {
-pos = (670,0);
+pos = (669,0);
 ref = two.dnom;
 }
 );
-width = 1264;
+width = 1263;
 }
 );
 unicode = 189;
