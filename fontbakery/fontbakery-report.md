@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.0
+
+
 
 
 
@@ -13,7 +15,7 @@ fontbakery version: 0.12.10
 <details><summary>[11] Menbere[wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -22,232 +24,106 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
+* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Language</th>
 <th align="left">FAIL messages</th>
+<th align="left">Languages</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">nl_Latn (Dutch)</td>
 <td align="left">Shaper didn't attach acutecomb to uni0237</td>
+<td align="left">nl_Latn (Dutch)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to J</td>
+<td align="left">nl_Latn (Dutch)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">bm_Latn (Bambara)</td>
 <td align="left">The locl feature did not affect Eng</td>
+<td align="left">bm_Latn (Bambara), dyu_Latn (Dyula), ig_Latn (Igbo) and lg_Latn (Ganda)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">dyu_Latn (Dyula)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ha_Latn (Hausa)</td>
 <td align="left">Shaper didn't attach tildecomb to r</td>
+<td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to R</td>
+<td align="left">ha_Latn (Hausa)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ig_Latn (Igbo)</td>
 <td align="left">Shaper didn't attach acutecomb to uni1ECB.dotless</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1ECA</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1ECB.dotless</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1ECA</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to m</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to M</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1ECD</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
+<td align="left">ig_Latn (Igbo) and yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1EE5</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1EE4</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1EE5</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1EE4</td>
+<td align="left">ig_Latn (Igbo)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lg_Latn (Ganda)</td>
-<td align="left">The locl feature did not affect Eng</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">yo_Latn (Yoruba)</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECC</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to m</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1ECC</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni1EB9</td>
+<td align="left">yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1EB8</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni1EB9</td>
+<td align="left">yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to M</td>
+<td align="left">Shaper didn't attach gravecomb to uni1EB8</td>
+<td align="left">yo_Latn (Yoruba)</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD</td>
+<td align="left">Shaper didn't attach acutecomb to uni1EB8</td>
+<td align="left">yo_Latn (Yoruba)</td>
 </tr>
 </tbody>
 </table>
@@ -255,29 +131,42 @@ fontbakery version: 0.12.10
 
 
 
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ŧ, ŧ, Ʒ, Ǥ, ǥ, Ǯ, ǯ, ʒ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ŧ, ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ɵ, ɵ</td>
+<td align="left">ig_Latn (Igbo)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
 </div>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
     <div>
 
 
@@ -298,7 +187,61 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-canonical-filename">googlefonts/canonical_filename</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Expected &quot;MenbereV29[wght].ttf. Got Menbere[wght].ttf.</p>
+ [code: bad-filename]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#file-size">file_size</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Font file is 2.5Mb; ideally it should be less than 1.0Mb</p>
+ [code: large-font]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#interpolation-issues">interpolation_issues</a></summary>
     <div>
 
 
@@ -308,7 +251,25 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 2 start point differs in glyph 'uni1345' between location wght=400 and location wght=100
+<pre><code>- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
+
+- Contour order differs in glyph 'quotedbl': [0, 1] in wght=400, [1, 0] in wght=100.
+
+- Contour order differs in glyph 'quotedbl': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
+
+- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
+
+- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour 0 start point differs in glyph 'multiply' between location wght=100 and location wght=700
+
+- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
+
+- Contour 2 start point differs in glyph 'uni1345' between location wght=400 and location wght=100
 
 - Contour 2 in glyph 'uni1345': becomes underweight between wght=400 and wght=100.
 
@@ -316,29 +277,11 @@ fontbakery version: 0.12.10
 
 - Contour 2 in glyph 'uni1345': becomes underweight between wght=100 and wght=700.
 
-- Contour order differs in glyph 'uni030F.case': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour 0 in glyph 'uni1210': becomes underweight between wght=100 and wght=700.
-
-- Contour 0 start point differs in glyph 'multiply' between location wght=100 and location wght=700
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour order differs in glyph 'hungarumlaut': [0, 1] in wght=400, [1, 0] in wght=100.
-
-- Contour order differs in glyph 'uni030F': [0, 1] in wght=100, [1, 0] in wght=700.
-
 - Contour order differs in glyph 'colon': [0, 1] in wght=400, [1, 0] in wght=100.
 
 - Contour order differs in glyph 'colon': [0, 1] in wght=100, [1, 0] in wght=700.
 
-- Contour order differs in glyph 'quotedbl': [0, 1] in wght=400, [1, 0] in wght=100.
-
-- Contour order differs in glyph 'quotedbl': [0, 1] in wght=100, [1, 0] in wght=700.
-
-- Contour 0 start point differs in glyph 'exclamdown' between location wght=400 and location wght=100
-
-- Contour 0 in glyph 'exclamdown': becomes underweight between wght=400 and wght=100.
+- Contour 0 in glyph 'uni1210': becomes underweight between wght=100 and wght=700.
 </code></pre>
  [code: interpolation-issues]
 
@@ -348,7 +291,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
     <div>
 
 
@@ -375,7 +318,7 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -397,7 +340,7 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -415,7 +358,7 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -430,27 +373,27 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, duployan, canadian-aboriginal, syriac, todhri, tai-le, coptic, old-permic, hebrew, malayalam</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, todhri, hebrew, math, syriac, coptic, malayalam, tifinagh, duployan, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, thai, caucasian-albanian, syriac, cherokee, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, syriac, sunuwar, tifinagh, caucasian-albanian, thai</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -480,7 +423,7 @@ definitions.</p>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -522,7 +465,7 @@ definitions.</p>
 <li>U+222B INTEGRAL: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: math, limbu, duployan, thaana, kharoshthi, hanunoo, masaram-gondi, tirhuta, modi, newa, thai, devanagari, tamil, siddham, javanese, ahom, rejang, cham, kannada, armenian, zanabazar-square, new-tai-lue, oriya, osage, bengali, bhaiksuki, saurashtra, miao, hanifi-rohingya, caucasian-albanian, grantha, mandaic, elbasan, old-permic, tagbanwa, bassa-vah, chakma, nko, tai-le, mahajani, manichaean, dogra, meetei-mayek, mongolian, tai-tham, takri, gujarati, brahmi, kayah-li, sinhala, phags-pa, tibetan, buginese, sharada, yi, coptic, kaithi, canadian-aboriginal, warang-citi, mende-kikakui, soyombo, syriac, myanmar, khmer, lepcha, psalter-pahlavi, balinese, music, khudawadi, telugu, adlam, symbols, tagalog, sundanese, marchen, khojki, syloti-nagri, malayalam, tai-viet, pahawh-hmong, gurmukhi, gunjala-gondi, batak, hebrew, buhid, wancho, sogdian, lao, tifinagh</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, bassa-vah, kannada, manichaean, tai-viet, mahajani, khojki, bhaiksuki, osage, balinese, yi, khudawadi, marchen, tai-tham, mandaic, sharada, thaana, cham, pahawh-hmong, takri, kharoshthi, tibetan, brahmi, canadian-aboriginal, meetei-mayek, tamil, hanunoo, tirhuta, grantha, nko, sinhala, limbu, hanifi-rohingya, armenian, syriac, mende-kikakui, modi, tagalog, sundanese, batak, rejang, kayah-li, gurmukhi, buginese, old-permic, lao, elbasan, tifinagh, phags-pa, new-tai-lue, soyombo, symbols, bengali, warang-citi, sogdian, chakma, thai, dogra, myanmar, kaithi, tai-le, devanagari, siddham, psalter-pahlavi, tagbanwa, miao, math, syloti-nagri, buhid, javanese, saurashtra, khmer, adlam, wancho, zanabazar-square, ahom, gunjala-gondi, coptic, masaram-gondi, music, duployan, oriya, lepcha, malayalam, telugu, hebrew, newa, caucasian-albanian, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -535,47 +478,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Font file is 2.5Mb; ideally it should be less than 1.0Mb</p>
- [code: large-font]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + i
-
-- f + l
-</code></pre>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
     <div>
 
 
@@ -601,8 +504,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 8 | 96 | 9 | 135 | 0 | 
-| 0% | 0% | 1% | 3% | 38% | 4% | 54% | 0% | 
+| 0 | 0 | 4 | 7 | 89 | 8 | 130 | 0 | 
+| 0% | 0% | 2% | 3% | 37% | 3% | 55% | 0% | 
 
 
 
